@@ -25,7 +25,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // 启动db 
 require('./model/db');
 
-var apiErrorCode = require('./api/error-code.js');
+var apiErrorCode = require('./api/errorCode.js');
 app.use('/api/ec/', apiErrorCode);
 
 app.use('/', routes);
