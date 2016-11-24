@@ -22,6 +22,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// 启动db 
+require('./model/db');
+
 var apiErrorCode = require('./api/error-code.js');
 app.use('/api/ec/', apiErrorCode);
 
