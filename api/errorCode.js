@@ -7,7 +7,8 @@ var add = function(req, res, next){
 			res.send(err);
 		}else{
 			res.json({
-				ret_code: 0
+				ret_code: 0,
+				data: req.body
 			});
 		}
 	});
@@ -43,12 +44,19 @@ var mod = function(req, res, next){
 };
 
 var query = function(req, res, next){
-	var options = {
-		_id: req.query.id.toObjectId()
-	};
+	// var options = {
+	// 	_id: req.query.id.toObjectId()
+	// };
+	var options = {};
+	if(req.query.id){
+		options.query._id = req.query.id.toObjectId();
+	}
 	ErrorCodeModel.find(options, function(err, errorCodes){
 		console.log(errorCodes);
-		res.send(errorCodes);
+		res.json({
+			ret_code: 0,
+			items: errorCodes
+		});
 	});	
 };
 

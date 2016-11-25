@@ -1,11 +1,78 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
+    <title>错误码管理</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <h1>错误码管理</h1>
+    <p>欢迎来到错误码管理平台</p>
+    <div id="add-container">
+    	<input type="text" placeholder="输入错误码" v-model="code" />
+    	<input type="text" placeholder="输入错误码描述" v-model="desc" />
+    	<button v-on:click="addErrorCode">添加错误码</button>
+    </div>
+
+    <div id="list-container">
+    	<h3>错误码列表：</h3>
+    	<ul>
+    		<li v-for="item in items">
+		      {{ item.code }} => {{ item.desc }}
+		    </li>
+    	</ul>
+    </div>
+
+	<script type="text/javascript" src="/js/vue.js"></script>
+	<script type="text/javascript" src="/js/fetch.js"></script>
+    <script type="text/javascript">
+		var app5 = new Vue({
+			el: '#add-container',
+			data: {
+				message: 'Hello Vue.js!',
+				code: '',
+				desc: ''
+			},
+			methods: {
+				addErrorCode: function () {
+					// this.message = this.message.split('').reverse().join('')
+					// alert(this.code + ',' + this.desc);
+					fetch('/api/ec/add', {
+						method: 'POST',
+						headers: {
+							'Content-Type': 'application/json'
+						},
+						body: JSON.stringify({
+							code: this.code,
+							desc: this.desc,
+						})
+					})
+					.then(function(response){
+						return response.json();
+					})
+					.then(function(data) {
+						 // response.text()
+						list.items.unshift(data.data);
+					});
+				}
+			}
+		});
+
+		var list = new Vue({
+			el: '#list-container',
+			data: {
+				items: [],
+				status: ''
+			}			
+		});
+
+		fetch('/api/ec/query')
+		.then(function(response) {
+			return response.json()
+		}).then(function(body) {
+			list.status = 'success';
+			list.items = body.items;
+		});
+    </script>
   </body>
 </html>
