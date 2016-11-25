@@ -14,12 +14,32 @@ var add = function(req, res, next){
 };
 
 var del = function(req, res, next){
-
+	var options = {
+		_id: req.body.id.toObjectId()
+	};
+	ErrorCodeModel.find(options).remove(function(err, data){	
+		// TODO 判断是否存在
+		if(err){
+			console.log(err);
+		}else{
+			res.send(data.result); 
+		}
+	});	
 };
 
 
 var mod = function(req, res, next){
+	var query = {
+		code: req.body.code.toString()
+	};
 
+	ErrorCodeModel.update(query, {desc: req.body.desc}, function(err, rawResponse){
+		if(err){
+			console.log(err);
+		}else{
+			res.send(rawResponse); 
+		}
+	});
 };
 
 var query = function(req, res, next){
