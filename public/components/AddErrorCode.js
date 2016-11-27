@@ -30,9 +30,8 @@ class AddErrorCode extends React.Component {
 
 	render() {
 		return (
-			<Grid className="show-grid">
-				<h2>新增错误码</h2>
-				<Col xs={4}>
+			<Grid className="show-grid">				
+				<Col xs={2}>
 					<input
 						ref="code"
 						type="text"

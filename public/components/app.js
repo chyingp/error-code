@@ -7,7 +7,7 @@ class App extends React.Component {
 		const props = this.props;
 		return (
 			<div>
-				<h1>错误码管理</h1>
+				<h1 style={{textAlign: 'center', marginBottom: '20px'}}>错误码管理</h1>
 				<AddErrorCode onAddClick={props.addErrorCode} />
 				<ErrorCodeList items={props.items} />
 			</div>

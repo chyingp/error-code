@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Grid, Col } from 'react-bootstrap'
+import { Button, Grid, Col, Table } from 'react-bootstrap'
 
 class AddErrorCode extends React.Component {
 
@@ -24,11 +24,24 @@ class AddErrorCode extends React.Component {
 		const props = this.props;
 		return (
 			<Grid className="show-grid">
-				<ul>
-					{props.items.map((item) =>
-						<li key={item.code}>{item.code}：{item.desc}</li>
-					)}	
-				</ul>					
+				<Table striped bordered condensed hover> 
+					<thead>
+						<tr>
+							<th>错误码</th>
+							<th>错误描述</th>
+							<th>创建时间</th>
+						</tr>
+					</thead>
+					<tbody>
+						{props.items.map((item) =>
+							<tr key={item.code}>
+								<td>{item.code}</td>
+								<td>{item.desc}</td>
+								<td>{'-'}</td>
+							</tr>
+						)}	
+					</tbody>
+				</Table>						
 			</Grid>
 		)
 	}

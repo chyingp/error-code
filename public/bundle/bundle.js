@@ -23296,7 +23296,7 @@
 					null,
 					_react2.default.createElement(
 						'h1',
-						null,
+						{ style: { textAlign: 'center', marginBottom: '20px' } },
 						'\u9519\u8BEF\u7801\u7BA1\u7406'
 					),
 					_react2.default.createElement(_AddErrorCode2.default, { onAddClick: props.addErrorCode }),
@@ -23376,13 +23376,8 @@
 					_reactBootstrap.Grid,
 					{ className: 'show-grid' },
 					_react2.default.createElement(
-						'h2',
-						null,
-						'\u65B0\u589E\u9519\u8BEF\u7801'
-					),
-					_react2.default.createElement(
 						_reactBootstrap.Col,
-						{ xs: 4 },
+						{ xs: 2 },
 						_react2.default.createElement('input', {
 							ref: 'code',
 							type: 'text',
@@ -42247,17 +42242,56 @@
 					_reactBootstrap.Grid,
 					{ className: 'show-grid' },
 					_react2.default.createElement(
-						'ul',
-						null,
-						props.items.map(function (item) {
-							return _react2.default.createElement(
-								'li',
-								{ key: item.code },
-								item.code,
-								'\uFF1A',
-								item.desc
-							);
-						})
+						_reactBootstrap.Table,
+						{ striped: true, bordered: true, condensed: true, hover: true },
+						_react2.default.createElement(
+							'thead',
+							null,
+							_react2.default.createElement(
+								'tr',
+								null,
+								_react2.default.createElement(
+									'th',
+									null,
+									'\u9519\u8BEF\u7801'
+								),
+								_react2.default.createElement(
+									'th',
+									null,
+									'\u9519\u8BEF\u63CF\u8FF0'
+								),
+								_react2.default.createElement(
+									'th',
+									null,
+									'\u521B\u5EFA\u65F6\u95F4'
+								)
+							)
+						),
+						_react2.default.createElement(
+							'tbody',
+							null,
+							props.items.map(function (item) {
+								return _react2.default.createElement(
+									'tr',
+									{ key: item.code },
+									_react2.default.createElement(
+										'td',
+										null,
+										item.code
+									),
+									_react2.default.createElement(
+										'td',
+										null,
+										item.desc
+									),
+									_react2.default.createElement(
+										'td',
+										null,
+										'-'
+									)
+								);
+							})
+						)
 					)
 				);
 			}
