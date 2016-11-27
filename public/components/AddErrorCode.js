@@ -12,6 +12,7 @@ class AddErrorCode extends React.Component {
 		}
 
 		this.onAddClick = this.onAddClick.bind(this)
+		this.onSearchClick = this.onSearchClick.bind(this)
 		this.handleInputChange = this.handleInputChange.bind(this)
 	}
 
@@ -23,6 +24,13 @@ class AddErrorCode extends React.Component {
 
 	onAddClick() {
 		this.props.onAddClick({
+			code: this.state.code, 
+			desc: this.state.desc
+		})
+	}
+
+	onSearchClick() {
+		this.props.onSearchClick({
 			code: this.state.code, 
 			desc: this.state.desc
 		})

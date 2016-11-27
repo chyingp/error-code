@@ -13,7 +13,7 @@ class App extends React.Component {
 		return (
 			<div>
 				<h1 style={{textAlign: 'center', marginBottom: '20px'}}>错误码管理</h1>
-				<AddErrorCode onAddClick={props.addErrorCode} onSearchClick={props} />
+				<AddErrorCode onAddClick={props.addErrorCode} onSearchClick={props.queryErrorCode} />
 				<ErrorCodeList items={props.items} />
 			</div>
 		)

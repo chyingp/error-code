@@ -4,10 +4,12 @@ import { addErrorCode } from '../actions'
 
 const errorCodes = (state = [], action) => {
 	switch (action.type) {
-		case 'ADD_ERROR_CODE':
-			return [state.items, action.payload];
+		// case 'ADD_ERROR_CODE':
+		// 	return [state.items, action.payload]
 		case 'FETCHED_ERROR_CODE':
-			return action.payload.items;
+			return action.payload.items
+		case 'ADD_ERROR_CODE_SUCCESS':
+			return [ action.payload, ...state ]	
 		default:
 			return state;
 	}

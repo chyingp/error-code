@@ -23304,7 +23304,7 @@
 						{ style: { textAlign: 'center', marginBottom: '20px' } },
 						'\u9519\u8BEF\u7801\u7BA1\u7406'
 					),
-					_react2.default.createElement(_AddErrorCode2.default, { onAddClick: props.addErrorCode, onSearchClick: props }),
+					_react2.default.createElement(_AddErrorCode2.default, { onAddClick: props.addErrorCode, onSearchClick: props.queryErrorCode }),
 					_react2.default.createElement(_ErrorCodeList2.default, { items: props.items })
 				);
 			}
@@ -23357,6 +23357,7 @@
 			};
 
 			_this.onAddClick = _this.onAddClick.bind(_this);
+			_this.onSearchClick = _this.onSearchClick.bind(_this);
 			_this.handleInputChange = _this.handleInputChange.bind(_this);
 			return _this;
 		}
@@ -23370,6 +23371,14 @@
 			key: 'onAddClick',
 			value: function onAddClick() {
 				this.props.onAddClick({
+					code: this.state.code,
+					desc: this.state.desc
+				});
+			}
+		}, {
+			key: 'onSearchClick',
+			value: function onSearchClick() {
+				this.props.onSearchClick({
 					code: this.state.code,
 					desc: this.state.desc
 				});
@@ -42287,7 +42296,7 @@
 							props.items.map(function (item) {
 								return _react2.default.createElement(
 									'tr',
-									{ key: item.code },
+									{ key: item._id },
 									_react2.default.createElement(
 										'td',
 										null,
@@ -42332,15 +42341,19 @@
 
 	var _actions = __webpack_require__(612);
 
+	function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
+
 	var errorCodes = function errorCodes() {
 		var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
 		var action = arguments[1];
 
 		switch (action.type) {
-			case 'ADD_ERROR_CODE':
-				return [state.items, action.payload];
+			// case 'ADD_ERROR_CODE':
+			// 	return [state.items, action.payload]
 			case 'FETCHED_ERROR_CODE':
 				return action.payload.items;
+			case 'ADD_ERROR_CODE_SUCCESS':
+				return [action.payload].concat(_toConsumableArray(state));
 			default:
 				return state;
 		}
@@ -47613,11 +47626,13 @@
 	Object.defineProperty(exports, "__esModule", {
 		value: true
 	});
-	exports.addErrorCode = exports.queryErrorCode = exports.fetchedErrorCode = undefined;
+	exports.addErrorCode = exports.addErrorCodeSuccess = exports.queryErrorCode = exports.fetchedErrorCode = undefined;
 
 	var _reduxActions = __webpack_require__(463);
 
 	__webpack_require__(614);
+
+	var _querystring = __webpack_require__(615);
 
 	// export const addErrorCode = (code, desc) => ({
 	// 	type: 'ADD_ERROR_CODE',
@@ -47636,9 +47651,10 @@
 		};
 	};
 
-	var queryErrorCode = exports.queryErrorCode = function queryErrorCode(options) {
+	var queryErrorCode = exports.queryErrorCode = function queryErrorCode() {
+		var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
 		return function (dispatch) {
-			fetch('/api/ec/query').then(function (response) {
+			fetch('/api/ec/query?' + (0, _querystring.stringify)(options)).then(function (response) {
 				return response.json();
 			}).then(function (body) {
 				dispatch(fetchedErrorCode(body));
@@ -47646,12 +47662,33 @@
 		};
 	};
 
-	var addErrorCode = exports.addErrorCode = function addErrorCode(options) {
+	var addErrorCodeSuccess = exports.addErrorCodeSuccess = function addErrorCodeSuccess(data) {
 		return {
-			type: 'ADD_ERROR_CODE',
-			payload: options
+			type: 'ADD_ERROR_CODE_SUCCESS',
+			payload: data
 		};
 	};
+
+	var addErrorCode = exports.addErrorCode = function addErrorCode(options) {
+		return function (dispatch) {
+			fetch('/api/ec/add', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json'
+				},
+				body: JSON.stringify(options)
+			}).then(function (response) {
+				return response.json();
+			}).then(function (data) {
+				dispatch(addErrorCodeSuccess(data.data));
+			});
+		};
+	};
+
+	// ({
+	// 	type: 'ADD_ERROR_CODE',
+	// 	payload: options
+	// })
 
 	// export let addErrorCode = (options) => ((dispatch) => ({
 	// 	fetch('/api/ec/query')
@@ -48155,6 +48192,197 @@
 	  }
 	  self.fetch.polyfill = true
 	})(typeof self !== 'undefined' ? self : this);
+
+
+/***/ },
+/* 615 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	exports.decode = exports.parse = __webpack_require__(616);
+	exports.encode = exports.stringify = __webpack_require__(617);
+
+
+/***/ },
+/* 616 */
+/***/ function(module, exports) {
+
+	// Copyright Joyent, Inc. and other Node contributors.
+	//
+	// Permission is hereby granted, free of charge, to any person obtaining a
+	// copy of this software and associated documentation files (the
+	// "Software"), to deal in the Software without restriction, including
+	// without limitation the rights to use, copy, modify, merge, publish,
+	// distribute, sublicense, and/or sell copies of the Software, and to permit
+	// persons to whom the Software is furnished to do so, subject to the
+	// following conditions:
+	//
+	// The above copyright notice and this permission notice shall be included
+	// in all copies or substantial portions of the Software.
+	//
+	// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+	// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+	// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+	// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+	// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+	// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+	// USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+	'use strict';
+
+	// If obj.hasOwnProperty has been overridden, then calling
+	// obj.hasOwnProperty(prop) will break.
+	// See: https://github.com/joyent/node/issues/1707
+	function hasOwnProperty(obj, prop) {
+	  return Object.prototype.hasOwnProperty.call(obj, prop);
+	}
+
+	module.exports = function(qs, sep, eq, options) {
+	  sep = sep || '&';
+	  eq = eq || '=';
+	  var obj = {};
+
+	  if (typeof qs !== 'string' || qs.length === 0) {
+	    return obj;
+	  }
+
+	  var regexp = /\+/g;
+	  qs = qs.split(sep);
+
+	  var maxKeys = 1000;
+	  if (options && typeof options.maxKeys === 'number') {
+	    maxKeys = options.maxKeys;
+	  }
+
+	  var len = qs.length;
+	  // maxKeys <= 0 means that we should not limit keys count
+	  if (maxKeys > 0 && len > maxKeys) {
+	    len = maxKeys;
+	  }
+
+	  for (var i = 0; i < len; ++i) {
+	    var x = qs[i].replace(regexp, '%20'),
+	        idx = x.indexOf(eq),
+	        kstr, vstr, k, v;
+
+	    if (idx >= 0) {
+	      kstr = x.substr(0, idx);
+	      vstr = x.substr(idx + 1);
+	    } else {
+	      kstr = x;
+	      vstr = '';
+	    }
+
+	    k = decodeURIComponent(kstr);
+	    v = decodeURIComponent(vstr);
+
+	    if (!hasOwnProperty(obj, k)) {
+	      obj[k] = v;
+	    } else if (isArray(obj[k])) {
+	      obj[k].push(v);
+	    } else {
+	      obj[k] = [obj[k], v];
+	    }
+	  }
+
+	  return obj;
+	};
+
+	var isArray = Array.isArray || function (xs) {
+	  return Object.prototype.toString.call(xs) === '[object Array]';
+	};
+
+
+/***/ },
+/* 617 */
+/***/ function(module, exports) {
+
+	// Copyright Joyent, Inc. and other Node contributors.
+	//
+	// Permission is hereby granted, free of charge, to any person obtaining a
+	// copy of this software and associated documentation files (the
+	// "Software"), to deal in the Software without restriction, including
+	// without limitation the rights to use, copy, modify, merge, publish,
+	// distribute, sublicense, and/or sell copies of the Software, and to permit
+	// persons to whom the Software is furnished to do so, subject to the
+	// following conditions:
+	//
+	// The above copyright notice and this permission notice shall be included
+	// in all copies or substantial portions of the Software.
+	//
+	// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+	// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+	// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+	// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+	// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+	// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+	// USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+	'use strict';
+
+	var stringifyPrimitive = function(v) {
+	  switch (typeof v) {
+	    case 'string':
+	      return v;
+
+	    case 'boolean':
+	      return v ? 'true' : 'false';
+
+	    case 'number':
+	      return isFinite(v) ? v : '';
+
+	    default:
+	      return '';
+	  }
+	};
+
+	module.exports = function(obj, sep, eq, name) {
+	  sep = sep || '&';
+	  eq = eq || '=';
+	  if (obj === null) {
+	    obj = undefined;
+	  }
+
+	  if (typeof obj === 'object') {
+	    return map(objectKeys(obj), function(k) {
+	      var ks = encodeURIComponent(stringifyPrimitive(k)) + eq;
+	      if (isArray(obj[k])) {
+	        return map(obj[k], function(v) {
+	          return ks + encodeURIComponent(stringifyPrimitive(v));
+	        }).join(sep);
+	      } else {
+	        return ks + encodeURIComponent(stringifyPrimitive(obj[k]));
+	      }
+	    }).join(sep);
+
+	  }
+
+	  if (!name) return '';
+	  return encodeURIComponent(stringifyPrimitive(name)) + eq +
+	         encodeURIComponent(stringifyPrimitive(obj));
+	};
+
+	var isArray = Array.isArray || function (xs) {
+	  return Object.prototype.toString.call(xs) === '[object Array]';
+	};
+
+	function map (xs, f) {
+	  if (xs.map) return xs.map(f);
+	  var res = [];
+	  for (var i = 0; i < xs.length; i++) {
+	    res.push(f(xs[i], i));
+	  }
+	  return res;
+	}
+
+	var objectKeys = Object.keys || function (obj) {
+	  var res = [];
+	  for (var key in obj) {
+	    if (Object.prototype.hasOwnProperty.call(obj, key)) res.push(key);
+	  }
+	  return res;
+	};
 
 
 /***/ }
