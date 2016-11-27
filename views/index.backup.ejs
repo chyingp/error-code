@@ -5,16 +5,18 @@
     <!--<link rel='stylesheet' href='/stylesheets/style.css' />-->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
   </head>
-  <body>    
-    <div id="root" class="container"></div>
+  <body>
+    <h1>错误码管理</h1>
+    <p>欢迎来到错误码管理平台</p>
+    <div id="root"></div>
 
-    <div id="add-container" style="display: none;">
+    <div id="add-container">
     	<input type="text" placeholder="输入错误码" v-model="code" />
     	<input type="text" placeholder="输入错误码描述" v-model="desc" />
     	<button v-on:click="addErrorCode">添加错误码</button>
     </div>
 
-    <div id="list-container" style="display: none;">
+    <div id="list-container">
     	<h3>错误码列表：</h3>
     	<ul>
     		<li v-for="item in items">
@@ -74,6 +76,6 @@
 			list.items = body.items;
 		});
     </script>
-    <script type="text/javascript" src="/bundle/bundle.js"></script>
+    <script type="text/javascript" src="/js/bundle/bundle.js"></script>
   </body>
 </html>

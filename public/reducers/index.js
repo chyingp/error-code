@@ -4,6 +4,9 @@ import { combineReducers } from 'redux'
 
 const errorCodes = (state = [], action) => {
 	switch (action.type) {
+		case 'ADD_ERROR_CODE':
+			alert('fuck');
+			return state;
 		default:
 			return state;
 	}
@@ -13,4 +16,4 @@ const todoApp = combineReducers({
   errorCodes
 })
 
-export default errorCodes
+export default todoApp
