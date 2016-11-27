@@ -19,6 +19,7 @@
     "react-redux": "^4.4.6",
     "redux": "^3.6.0",
     "redux-actions": "^1.1.0",
+    "redux-promise": "^0.5.3",
     "redux-thunk": "^2.1.0",
     "serve-favicon": "~2.3.0",
     "whatwg-fetch": "^2.0.1"

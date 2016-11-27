@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Grid, Col } from 'react-bootstrap'
+import { ButtonToolbar, Button, Grid, Col } from 'react-bootstrap'
 
 class AddErrorCode extends React.Component {
 
@@ -52,7 +52,10 @@ class AddErrorCode extends React.Component {
 						/>
 				</Col>
 				<Col xs={4}>
-					<Button	bsStyle="primary" onClick={this.onAddClick}>新增</Button>
+					<ButtonToolbar>
+						<Button	bsStyle="primary" onClick={this.onSearchClick}>查询</Button>
+						<Button	bsStyle="default" onClick={this.onAddClick}>新增</Button>	
+					</ButtonToolbar>					
 				</Col>				
 			</Grid>
 		)

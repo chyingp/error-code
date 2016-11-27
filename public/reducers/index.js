@@ -5,26 +5,27 @@ import { addErrorCode } from '../actions'
 const errorCodes = (state = [], action) => {
 	switch (action.type) {
 		case 'ADD_ERROR_CODE':
-			alert('fuck');
-			return state;
+			return [state.items, action.payload];
+		case 'FETCHED_ERROR_CODE':
+			return action.payload.items;
 		default:
 			return state;
 	}
 }
 
-let initialState = {
-	items: []
-}
+// let initialState = {
+// 	items: []
+// }
 
-const reducer = handleActions({
-	[addErrorCode]: (state, action) => ({
-		...state,
-		items: [...state.items, action.payload]
-	})
-}, initialState)
+// const reducer = handleActions({
+// 	[addErrorCode]: (state, action) => ({
+// 		...state,
+// 		items: [...state.items, action.payload]
+// 	})
+// }, initialState)
 
-// const todoApp = combineReducers({
-//   errorCodes
-// })
+const reducer = combineReducers({
+  items: errorCodes
+})
 
 export default reducer
