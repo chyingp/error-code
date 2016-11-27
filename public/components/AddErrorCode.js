@@ -22,7 +22,10 @@ class AddErrorCode extends React.Component {
 	}
 
 	onAddClick() {
-		this.props.onAddClick(this.state.code, this.state.desc)
+		this.props.onAddClick({
+			code: this.state.code, 
+			desc: this.state.desc
+		})
 	}
 
 	render() {

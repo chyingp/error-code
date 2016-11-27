@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux'
-// import todos from './todos'
-// import visibilityFilter from './visibilityFilter'
+import { handleActions } from 'redux-actions'
+import { addErrorCode } from '../actions'
 
 const errorCodes = (state = [], action) => {
 	switch (action.type) {
@@ -12,8 +12,19 @@ const errorCodes = (state = [], action) => {
 	}
 }
 
-const todoApp = combineReducers({
-  errorCodes
-})
+let initialState = {
+	items: []
+}
 
-export default todoApp
+const reducer = handleActions({
+	[addErrorCode]: (state, action) => ({
+		...state,
+		items: [...state.items, action.payload]
+	})
+}, initialState)
+
+// const todoApp = combineReducers({
+//   errorCodes
+// })
+
+export default reducer
