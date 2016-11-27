@@ -1,6 +1,7 @@
 import { combineReducers } from 'redux'
 import { handleActions } from 'redux-actions'
 import { addErrorCode } from '../actions'
+import { routerReducer } from 'react-router-redux'
 
 const errorCodes = (state = [], action) => {
 	switch (action.type) {
@@ -27,7 +28,8 @@ const errorCodes = (state = [], action) => {
 // }, initialState)
 
 const reducer = combineReducers({
-  items: errorCodes
+  items: errorCodes,
+  routing: routerReducer
 })
 
 export default reducer

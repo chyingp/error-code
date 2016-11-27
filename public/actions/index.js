@@ -22,7 +22,7 @@ export let queryErrorCode = (options = {}) => ((dispatch) => {
 		.then(function(response) {
 			return response.json()
 		}).then(function(body) {
-			dispatch( fetchedErrorCode(body) )
+			dispatch( fetchedErrorCode(body.data) )
 		});
 })
 

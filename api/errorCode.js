@@ -47,15 +47,18 @@ var query = function(req, res, next){
 	// var options = {
 	// 	_id: req.query.id.toObjectId()
 	// };
-	var options = {};
-	if(req.query.id){
-		options.query._id = req.query.id.toObjectId();
-	}
+	var options = Object.assign({}, req.query);
+	// if(req.query.id){
+	// 	options.query._id = req.query.id.toObjectId();
+	// }
 	ErrorCodeModel.find(options, function(err, errorCodes){
 		console.log(errorCodes);
 		res.json({
 			ret_code: 0,
-			items: errorCodes
+			data: {
+				items: errorCodes,
+				total: errorCodes.length
+			}			
 		});
 	});	
 };

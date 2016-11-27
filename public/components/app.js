@@ -5,7 +5,7 @@ import ErrorCodeList from './ErrorCodeList'
 class App extends React.Component {
 
 	componentDidMount() {
-		this.props.queryErrorCode()
+		// this.props.queryErrorCode()
 	}
 
 	render() {
@@ -13,8 +13,9 @@ class App extends React.Component {
 		return (
 			<div>
 				<h1 style={{textAlign: 'center', marginBottom: '20px'}}>错误码管理</h1>
-				<AddErrorCode onAddClick={props.addErrorCode} onSearchClick={props.queryErrorCode} />
-				<ErrorCodeList items={props.items} />
+				{/*<AddErrorCode onAddClick={props.addErrorCode} onSearchClick={props.queryErrorCode} />
+				<ErrorCodeList items={props.items} />*/}
+				{this.props.children}
 			</div>
 		)
 	}

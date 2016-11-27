@@ -28,8 +28,7 @@ require('./model/db');
 var apiErrorCode = require('./api/errorCode.js');
 app.use('/api/ec/', apiErrorCode);
 
-app.use('/', routes);
-app.use('/users', users);
+app.use('/*', routes);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
