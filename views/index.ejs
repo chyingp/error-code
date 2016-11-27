@@ -2,12 +2,14 @@
 <html>
   <head>
     <title>错误码管理</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-    
+    <!--<link rel='stylesheet' href='/stylesheets/style.css' />-->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
   </head>
   <body>
     <h1>错误码管理</h1>
     <p>欢迎来到错误码管理平台</p>
+    <div id="root"></div>
+
     <div id="add-container">
     	<input type="text" placeholder="输入错误码" v-model="code" />
     	<input type="text" placeholder="输入错误码描述" v-model="desc" />
@@ -74,5 +76,6 @@
 			list.items = body.items;
 		});
     </script>
+    <script type="text/javascript" src="/js/bundle/bundle.js"></script>
   </body>
 </html>

@@ -13,6 +13,12 @@
     "express": "~4.13.1",
     "mongoose": "^4.7.0",
     "morgan": "~1.6.1",
+    "react": "^15.4.1",
+    "react-bootstrap": "^0.30.7",
+    "react-dom": "^15.4.1",
+    "react-redux": "^4.4.6",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0",
     "serve-favicon": "~2.3.0",
     "whatwg-fetch": "^2.0.1"
   }
