@@ -7,7 +7,7 @@ import * as actions from '../actions'
 import thunk from 'redux-thunk'
 
 import App from '../components/App'
-import Add from '../components/AddErrorCode'
+import Add from '../containers/Add'
 import Edit from '../components/EditErrorCode'
 import Search from '../containers/Search'
 

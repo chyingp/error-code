@@ -16,6 +16,29 @@ const errorCodes = (state = [], action) => {
 	}
 }
 
+let initialState = {
+	status: ''
+}
+
+const errorCode = (state = initialState, action) => {
+	switch (action.type) {
+		case 'ADD_ERROR_CODE':
+			return action.payload;
+		case 'ADD_ERROR_CODE_PENDING':
+			return {
+				...state,
+				status: 'pending'
+			};	
+		case 'ADD_ERROR_CODE_SUCCESS':
+			return {
+				...state,
+				status: 'success'
+			};
+		default:
+			return state;	
+	}
+}
+
 // let initialState = {
 // 	items: []
 // }
@@ -28,8 +51,9 @@ const errorCodes = (state = [], action) => {
 // }, initialState)
 
 const reducer = combineReducers({
-  items: errorCodes,
-  routing: routerReducer
+	code: errorCode,
+	items: errorCodes,
+	routing: routerReducer
 })
 
 export default reducer

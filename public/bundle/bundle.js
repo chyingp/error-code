@@ -72,9 +72,9 @@
 
 	var _App2 = _interopRequireDefault(_App);
 
-	var _AddErrorCode = __webpack_require__(209);
+	var _Add = __webpack_require__(677);
 
-	var _AddErrorCode2 = _interopRequireDefault(_AddErrorCode);
+	var _Add2 = _interopRequireDefault(_Add);
 
 	var _EditErrorCode = __webpack_require__(675);
 
@@ -114,7 +114,7 @@
 			_react2.default.createElement(
 				_reactRouter.Route,
 				{ path: '/', component: _App2.default },
-				_react2.default.createElement(_reactRouter.Route, { path: '/add', component: _AddErrorCode2.default }),
+				_react2.default.createElement(_reactRouter.Route, { path: '/add', component: _Add2.default }),
 				_react2.default.createElement(_reactRouter.Route, { path: '/edit', component: _EditErrorCode2.default }),
 				_react2.default.createElement(_reactRouter.Route, { path: '/search', component: _Search2.default })
 			)
@@ -23386,7 +23386,6 @@
 			};
 
 			_this.onAddClick = _this.onAddClick.bind(_this);
-			_this.onSearchClick = _this.onSearchClick.bind(_this);
 			_this.handleInputChange = _this.handleInputChange.bind(_this);
 			return _this;
 		}
@@ -23399,15 +23398,20 @@
 		}, {
 			key: 'onAddClick',
 			value: function onAddClick() {
-				this.props.onAddClick({
-					code: this.state.code,
-					desc: this.state.desc
-				});
-			}
-		}, {
-			key: 'onSearchClick',
-			value: function onSearchClick() {
-				this.props.onSearchClick({
+				var code = this.state.code;
+				var desc = this.state.desc;
+
+				if (!code || !desc) {
+					alert('错误码/错误描述 不能为空');
+					return;
+				}
+
+				if (!/^\d+$/.test(code)) {
+					alert('错误码必须是整数');
+					return;
+				}
+
+				this.props.addErrorCode({
 					code: this.state.code,
 					desc: this.state.desc
 				});
@@ -23415,54 +23419,39 @@
 		}, {
 			key: 'render',
 			value: function render() {
+				var _React$createElement;
+
 				return _react2.default.createElement(
 					_reactBootstrap.Grid,
 					{ className: 'show-grid' },
 					_react2.default.createElement(
-						'p',
-						null,
-						'\u6DFB\u52A0'
-					),
-					_react2.default.createElement(
-						_reactBootstrap.Col,
-						{ xs: 2 },
-						_react2.default.createElement('input', {
-							ref: 'code',
-							type: 'text',
-							className: 'form-control',
-							placeholder: '\u9519\u8BEF\u7801',
-							value: this.state.code,
-							onChange: this.handleInputChange.bind(this, 'code')
-						})
-					),
-					_react2.default.createElement(
-						_reactBootstrap.Col,
-						{ xs: 4 },
-						_react2.default.createElement('input', {
-							ref: 'desc',
-							type: 'text',
-							className: 'form-control',
-							placeholder: '\u9519\u8BEF\u63CF\u8FF0',
-							value: this.state.desc,
-							onChange: this.handleInputChange.bind(this, 'desc')
-						})
-					),
-					_react2.default.createElement(
-						_reactBootstrap.Col,
-						{ xs: 4 },
+						_reactBootstrap.Form,
+						{ inline: true, className: 'add-form' },
 						_react2.default.createElement(
-							_reactBootstrap.ButtonToolbar,
-							null,
-							_react2.default.createElement(
-								_reactBootstrap.Button,
-								{ bsStyle: 'primary', onClick: this.onSearchClick },
-								'\u67E5\u8BE2'
-							),
-							_react2.default.createElement(
-								_reactBootstrap.Button,
-								{ bsStyle: 'default', onClick: this.onAddClick },
-								'\u65B0\u589E'
-							)
+							_reactBootstrap.FormGroup,
+							{ controlId: 'formInlineName' },
+							_react2.default.createElement(_reactBootstrap.FormControl, {
+								className: 'code-input mg-r',
+								type: 'text',
+								placeholder: '\u9519\u8BEF\u7801',
+								value: this.state.code,
+								onChange: this.handleInputChange.bind(this, 'code')
+							}),
+							_react2.default.createElement(_reactBootstrap.FormControl, {
+								className: 'desc-input mg-r',
+								type: 'text',
+								placeholder: '\u9519\u8BEF\u63CF\u8FF0',
+								value: this.state.desc,
+								onChange: this.handleInputChange.bind(this, 'desc')
+							})
+						),
+						_react2.default.createElement(
+							_reactBootstrap.Button,
+							(_React$createElement = {
+								className: 'mg-r',
+								bsStyle: 'primary'
+							}, _defineProperty(_React$createElement, 'className', 'search-btn'), _defineProperty(_React$createElement, 'onClick', this.onAddClick), _React$createElement),
+							'\u65B0\u589E'
 						)
 					)
 				);
@@ -42396,6 +42385,8 @@
 		value: true
 	});
 
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
 	var _redux = __webpack_require__(178);
 
 	var _reduxActions = __webpack_require__(463);
@@ -42422,6 +42413,30 @@
 		}
 	};
 
+	var initialState = {
+		status: ''
+	};
+
+	var errorCode = function errorCode() {
+		var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialState;
+		var action = arguments[1];
+
+		switch (action.type) {
+			case 'ADD_ERROR_CODE':
+				return action.payload;
+			case 'ADD_ERROR_CODE_PENDING':
+				return _extends({}, state, {
+					status: 'pending'
+				});
+			case 'ADD_ERROR_CODE_SUCCESS':
+				return _extends({}, state, {
+					status: 'success'
+				});
+			default:
+				return state;
+		}
+	};
+
 	// let initialState = {
 	// 	items: []
 	// }
@@ -42434,6 +42449,7 @@
 	// }, initialState)
 
 	var reducer = (0, _redux.combineReducers)({
+		code: errorCode,
 		items: errorCodes,
 		routing: _reactRouterRedux.routerReducer
 	});
@@ -47690,7 +47706,7 @@
 	Object.defineProperty(exports, "__esModule", {
 		value: true
 	});
-	exports.addErrorCode = exports.addErrorCodeSuccess = exports.queryErrorCode = exports.fetchedErrorCode = undefined;
+	exports.addErrorCode = exports.addErrorCodePending = exports.addErrorCodeSuccess = exports.queryErrorCode = exports.fetchedErrorCode = undefined;
 
 	var _reduxActions = __webpack_require__(463);
 
@@ -47733,8 +47749,17 @@
 		};
 	};
 
+	var addErrorCodePending = exports.addErrorCodePending = function addErrorCodePending() {
+		return {
+			type: 'ADD_ERROR_CODE_PENDING'
+		};
+	};
+
 	var addErrorCode = exports.addErrorCode = function addErrorCode(options) {
 		return function (dispatch) {
+
+			dispatch(addErrorCodePending());
+
 			fetch('/api/ec/add', {
 				method: 'POST',
 				headers: {
@@ -53618,6 +53643,38 @@
 	};
 
 	exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(_ErrorCodeList2.default);
+
+/***/ },
+/* 677 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+	var _reactRedux = __webpack_require__(199);
+
+	var _actions = __webpack_require__(612);
+
+	var _AddErrorCode = __webpack_require__(209);
+
+	var _AddErrorCode2 = _interopRequireDefault(_AddErrorCode);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var mapStateToProps = function mapStateToProps(state) {
+		return _extends({}, state.code);
+	};
+
+	var mapDispatchToProps = {
+		addErrorCode: _actions.addErrorCode
+	};
+
+	exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(_AddErrorCode2.default);
 
 /***/ }
 /******/ ]);
