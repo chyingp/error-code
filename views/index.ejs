@@ -2,7 +2,6 @@
 <html>
   <head>
     <title>错误码管理</title>
-    <!--<link rel='stylesheet' href='/stylesheets/style.css' />-->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/app.css">
   </head>
@@ -23,60 +22,6 @@
 		    </li>
     	</ul>
     </div>
-
-	<script type="text/javascript" src="/js/vue.js"></script>
-	<script type="text/javascript" src="/js/fetch.js"></script>
-    <script type="text/javascript">
-    /*
-		var app5 = new Vue({
-			el: '#add-container',
-			data: {
-				message: 'Hello Vue.js!',
-				code: '',
-				desc: ''
-			},
-			methods: {
-				addErrorCode: function () {
-					// this.message = this.message.split('').reverse().join('')
-					// alert(this.code + ',' + this.desc);
-					fetch('/api/ec/add', {
-						method: 'POST',
-						headers: {
-							'Content-Type': 'application/json'
-						},
-						body: JSON.stringify({
-							code: this.code,
-							desc: this.desc,
-						})
-					})
-					.then(function(response){
-						return response.json();
-					})
-					.then(function(data) {
-						 // response.text()
-						list.items.unshift(data.data);
-					});
-				}
-			}
-		});
-
-		var list = new Vue({
-			el: '#list-container',
-			data: {
-				items: [],
-				status: ''
-			}			
-		});
-
-		fetch('/api/ec/query')
-		.then(function(response) {
-			return response.json()
-		}).then(function(body) {
-			list.status = 'success';
-			list.items = body.items;
-		});
-	*/	
-    </script>
     <script type="text/javascript" src="/bundle/bundle.js"></script>
   </body>
 </html>
