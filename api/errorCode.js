@@ -1,14 +1,20 @@
 var ErrorCodeModel = require('../model/errorCode');
+var _ = require('lodash');
 
 var add = function(req, res, next){
-	var errorCode = new ErrorCodeModel(req.body);
+	
+	var opt = _.pick(req.body, ['code', 'brief_desc', 'verbose']);
+	opt.created_at = new Date();
+
+	var errorCode = new ErrorCodeModel(opt);
+
 	errorCode.save(function(err){
 		if(err){
 			res.send(err);
 		}else{
 			res.json({
 				ret_code: 0,
-				data: req.body
+				data: opt
 			});
 		}
 	});

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button, Grid, Row, Col, Table } from 'react-bootstrap'
 import { Form, FormGroup, FormControl, ControlLabel } from 'react-bootstrap'
+import moment from 'moment'
 
 class AddErrorCode extends React.Component {
 
@@ -32,8 +33,14 @@ class AddErrorCode extends React.Component {
 		})
 	}
 
+	renderDateTime(created_at) {
+		return created_at ? moment(created_at).format('YYYY-MM-DD  HH:mm:ss') : '-'
+	}
+
 	render() {
+
 		const props = this.props;
+
 		return (
 			<Grid className="show-grid">
 				<Form inline className="search-form">
@@ -55,7 +62,7 @@ class AddErrorCode extends React.Component {
 							<tr key={item._id}>
 								<td>{item.code}</td>
 								<td>{item.brief_desc}</td>
-								<td>{'-'}</td>
+								<td>{this.renderDateTime(item.created_at)}</td>
 							</tr>
 						)}	
 					</tbody>

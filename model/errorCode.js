@@ -13,9 +13,10 @@ String.prototype.toObjectId = function() {
 
 var errorCodeSchema = new Schema({
 	code: String,  // 错误码
-	desc: String,  // 错误描述
+	brief_desc: String,  // 错误描述
+	created_at: Date,
 	// date: String,
-	extra: String  // 其他信息
+	verbose_desc: String  // 其他信息
 });
 
 var errorCodeModel = mongoose.model('code', errorCodeSchema); 
