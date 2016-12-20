@@ -31,14 +31,21 @@ export let addErrorCodeSuccess = (data) => ({
 	payload: data
 })
 
+export let addErrorCodeError = (data) => ({
+	type: 'ADD_ERROR_CODE_ERROR',
+	payload: data
+})
+
 export let addErrorCodePending = () => ({
 	type: 'ADD_ERROR_CODE_PENDING'
 })
 
 export let addErrorCode =(options) => (dispatch) => {
 
+// 	dispatch( addErrorCodeError() )
+// return;
 	dispatch( addErrorCodePending() )
-	
+
 	fetch('/api/ec/add', {
 		method: 'POST',
 		headers: {

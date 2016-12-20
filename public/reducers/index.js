@@ -17,7 +17,8 @@ const errorCodes = (state = [], action) => {
 }
 
 let initialState = {
-	status: ''
+	status: '',
+	errMsg: ''
 }
 
 const errorCode = (state = initialState, action) => {
@@ -34,6 +35,11 @@ const errorCode = (state = initialState, action) => {
 				...state,
 				status: 'success'
 			};
+		case 'ADD_ERROR_CODE_ERROR':
+			return {
+				...state,
+				status: 'error'
+			};	
 		default:
 			return state;	
 	}

@@ -54,7 +54,7 @@ class AddErrorCode extends React.Component {
 						{props.items.map((item) =>
 							<tr key={item._id}>
 								<td>{item.code}</td>
-								<td>{item.desc}</td>
+								<td>{item.brief_desc}</td>
 								<td>{'-'}</td>
 							</tr>
 						)}	

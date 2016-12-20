@@ -5,7 +5,8 @@
 .search-form .search-btn{ margin-left: 10px; }
 
 /* 新增 */
-.add-form {text-align: center;}
+.add-wrapper{width: 450px; margin: 0 auto;}
+.add-form {/*text-align: center;*/}
 .add-form .code-input{ width: 150px; }
 .add-form .desc-input{ width: 400px; }
 .add-form .mg-r{margin-right: 10px;}
