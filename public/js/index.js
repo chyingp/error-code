@@ -8,8 +8,11 @@ import thunk from 'redux-thunk'
 
 import App from '../components/App'
 import Add from '../containers/Add'
-import Edit from '../components/EditErrorCode'
 import Search from '../containers/Search'
+import Category from '../containers/Category'
+
+import Edit from '../components/EditErrorCode'
+
 
 import { Router, Route, browserHistory } from 'react-router'
 import { syncHistoryWithStore, routerReducer } from 'react-router-redux'
@@ -34,6 +37,7 @@ render(
 			<Route path="/add" component={Add}/>
 			<Route path="/edit" component={Edit}/>
 			<Route path="/search" component={Search}/>
+			<Route path="/category" component={Category}/>
       </Route>      
     </Router>      
   </Provider>,

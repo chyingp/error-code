@@ -10,16 +10,13 @@ import {
 class App extends React.Component {
 
 	componentDidMount() {
-		// this.props.queryErrorCode()
+		console.log('App is mounted')
 	}
 
 	render() {
 		const props = this.props;
 		return (
-			<div>
-				{/*<h1 style={{textAlign: 'center', marginBottom: '20px'}}>错误码管理</h1>*/}
-				{/*<AddErrorCode onAddClick={props.addErrorCode} onSearchClick={props.queryErrorCode} />
-				<ErrorCodeList items={props.items} />*/}
+			<div>				
 				<Navbar>
 					<Navbar.Header>
 						<Navbar.Brand>

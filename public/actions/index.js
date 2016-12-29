@@ -61,6 +61,40 @@ export let addErrorCode =(options) => (dispatch) => {
 	});
 }
 
+// 分类管理
+export let addCategoryPending = () => ({
+	type: 'ADD_CATEGORY_PENDING'
+})
+
+export let addCategorySuccess = (data) => ({
+	type: 'ADD_CATEGORY_SUCCESS',
+	payload: data
+})
+
+export let addCategoryError = (data) => ({
+	type: 'ADD_CATEGORY_ERROR',
+	payload: data
+})
+
+export let addCategory = (options) => (dispatch) => {
+
+	dispatch( addCategoryPending() )
+
+	fetch('/api/category/add', {
+		method: 'POST',
+		headers: {
+			'Content-Type': 'application/json'
+		},
+		body: JSON.stringify(options)
+	})
+	.then((response) => {
+		return response.json()
+	})
+	.then((data) => {
+		dispatch( addCategorySuccess(data) )
+	})
+}
+
 // ({
 // 	type: 'ADD_ERROR_CODE',
 // 	payload: options

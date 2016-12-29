@@ -1,4 +1,5 @@
 import React from 'react'
+import Add from './Add'
 import { 
 	ButtonToolbar,
 	Button,
@@ -31,28 +32,28 @@ class AddErrorCode extends React.Component {
 	}
 
 	componentWillReceiveProps(nextProps) {
-		let props = this.props
-		let nextStatus = nextProps.status
-		let msg = ''
+		// let props = this.props
+		// let nextStatus = nextProps.status
+		// let msg = ''
 		
-		if( nextStatus !== props.status && ['success', 'error'].indexOf(nextStatus)!== -1 ) {
-			switch(nextStatus){
-				case 'success':
-					msg = '错误码添加成功'
-					break;
-				case 'error':
-					msg = '错误码添加失败'
-					break;
-				default:
-					// doing nothing
-					break;	 	
-			}
+		// if( nextStatus !== props.status && ['success', 'error'].indexOf(nextStatus)!== -1 ) {
+		// 	switch(nextStatus){
+		// 		case 'success':
+		// 			msg = '错误添加成功'
+		// 			break;
+		// 		case 'error':
+		// 			msg = '错误码添加失败'
+		// 			break;
+		// 		default:
+		// 			// doing nothing
+		// 			break;	 	
+		// 	}
 
-			this.setState({
-				showErrMsg: true,
-				errMsg: msg
-			})
-		}
+		// 	this.setState({
+		// 		showErrMsg: true,
+		// 		errMsg: msg
+		// 	})
+		// }
 	}
 
 	handleInputChange(key, evt) {
@@ -108,41 +109,10 @@ class AddErrorCode extends React.Component {
 		let btnText = props.status === 'pending' ? '添加中...' : '新增'
 
 		return (
-			<div className="add-wrapper">
-				<Panel header="新增错误码">
-					{this.renderMsg()}
-					<Form className="add-form">					
-					    <FormGroup controlId="formInlineName">
-					    	<FormControl
-					    		type="text"
-					    		placeholder="错误码"				    		
-					    		value={this.state.code}
-								onChange={this.handleInputChange.bind(this, 'code')}
-					    	/>					    	
-					    </FormGroup>					    	
-					    <FormGroup>
-						    <FormControl
-					    		type="text"
-					    		placeholder="错误描述"				    		
-					    		value={this.state.brief_desc}
-								onChange={this.handleInputChange.bind(this, 'brief_desc')}
-					    	/>
-					    </FormGroup>
-					    <FormGroup>
-					    	<FormControl 
-					    		componentClass="textarea" 
-					    		placeholder="详细描述（可选）" 
-					    		value={this.state.verbose_desc}
-					    		onChange={this.handleInputChange.bind(this, 'verbose_desc')}
-					    	/>
-					    </FormGroup>
-					    <Button
-					    	className=""
-					    	bsStyle="primary"
-					    	className="search-btn"
-					    	disabled={btnDisabled}
-					    	onClick={this.onAddClick}>{btnText}</Button>					    
-					</Form>	
+			<div className="category-wrapper">
+				<Add addCategory={props.addCategory} category={props.category} />
+				<Panel header="分类管理">
+					{this.renderMsg()}					
 				</Panel>			
 			</div>					
 		)

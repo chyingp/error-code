@@ -45,18 +45,35 @@ const errorCode = (state = initialState, action) => {
 	}
 }
 
-// let initialState = {
-// 	items: []
-// }
+let categoryInitialState = {
+	status: '',
+	errMsg: ''
+}
 
-// const reducer = handleActions({
-// 	[addErrorCode]: (state, action) => ({
-// 		...state,
-// 		items: [...state.items, action.payload]
-// 	})
-// }, initialState)
+const category = (state = categoryInitialState, action) => {
+	switch (action.type) {		
+		case 'ADD_CATEGORY_PENDING':
+			return {
+				...state,
+				status: 'pending'
+			};	
+		case 'ADD_CATEGORY_SUCCESS':
+			return {
+				...state,
+				status: 'success'
+			};
+		case 'ADD_CATEGORY_ERROR':
+			return {
+				...state,
+				status: 'error'
+			};	
+		default:
+			return state;	
+	}
+}
 
 const reducer = combineReducers({
+	category: category,  // 分类
 	code: errorCode,
 	items: errorCodes,
 	routing: routerReducer
