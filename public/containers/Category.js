@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { addCategory } from '../actions'
+import { addCategory, getCategories } from '../actions'
 import Category from '../components/Category/App'
 
 const mapStateToProps = (state) => ({
@@ -7,7 +7,8 @@ const mapStateToProps = (state) => ({
 })
 
 const mapDispatchToProps =  ({
-	addCategory: addCategory
+	addCategory: addCategory,
+	getCategories: getCategories
 })
 
 export default connect(

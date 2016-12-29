@@ -107,7 +107,7 @@ class AddErrorCode extends React.Component {
 		let btnText = props.status === 'pending' ? '添加中...' : '新增'
 
 		return (
-			<div className="category-add-wrapper">
+			<div className="show-grid category-add-wrapper">
 				<Form className="category-add-form" inline>					
 				    <FormGroup controlId="formInlineName">
 				    	<FormControl
@@ -132,8 +132,8 @@ class AddErrorCode extends React.Component {
 				    	disabled={btnDisabled}
 				    	onClick={this.onAddClick}>{btnText}</Button>
 				    {this.renderMsg()}					    
-				</Form>				
-			</div>					
+				</Form>		
+			</div>				
 		)
 	}
 }

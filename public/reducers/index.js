@@ -72,8 +72,38 @@ const category = (state = categoryInitialState, action) => {
 	}
 }
 
+// 分类列表
+let categoriesInitialState = {
+	status: '',
+	items: []
+}
+
+const categories = (state = categoriesInitialState, action) => {
+	switch (action.type) {		
+		case 'GET_CATEGORIES_PENDING':
+			return {
+				...state,
+				status: 'pending'
+			};	
+		case 'GET_CATEGORIES_SUCCESS':
+			return {
+				...state,
+				...action.payload.data,
+				status: 'success'
+			};
+		case 'GET_CATEGORIES_ERROR':
+			return {
+				...state,
+				status: 'error'
+			};	
+		default:
+			return state;	
+	}
+}
+
 const reducer = combineReducers({
 	category: category,  // 分类
+	categories: categories,  // 分类列表
 	code: errorCode,
 	items: errorCodes,
 	routing: routerReducer

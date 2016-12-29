@@ -1,5 +1,6 @@
 import React from 'react'
 import Add from './Add'
+import List from './List'
 import { 
 	ButtonToolbar,
 	Button,
@@ -109,11 +110,9 @@ class AddErrorCode extends React.Component {
 		let btnText = props.status === 'pending' ? '添加中...' : '新增'
 
 		return (
-			<div className="category-wrapper">
+			<div className="category-wrapper"> 
 				<Add addCategory={props.addCategory} category={props.category} />
-				<Panel header="分类管理">
-					{this.renderMsg()}					
-				</Panel>			
+				<List getCategories={props.getCategories} items={props.categories.items} />							
 			</div>					
 		)
 	}

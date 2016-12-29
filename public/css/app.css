@@ -12,7 +12,7 @@
 .add-form .mg-r{margin-right: 10px;}
 
 /* 分类管理 - 新增分类 */
-.category-add-wrapper{margin-bottom: 15px;}
+.category-add-wrapper{}
 .category-add-form {/*text-align: center;*/}
 .category-add-form .form-group{margin-right: 10px;}
 .category-add-form .err-msg{display: inline-block; margin-left: 10px;}
