@@ -29,6 +29,7 @@ class App extends React.Component {
 					<Nav>
 						<NavItem eventKey="search" href="/search">查询</NavItem>
 						<NavItem eventKey="add" href="/add">新增</NavItem>
+						<NavItem eventKey="category" href="/category">分类管理</NavItem>
 					</Nav>
 				</Navbar>
 				{this.props.children}

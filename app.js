@@ -26,7 +26,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 require('./model/db');
 
 var apiErrorCode = require('./api/errorCode.js');
+var apiCategory = require('./api/category.js');
+
 app.use('/api/ec/', apiErrorCode);
+app.use('/api/category/', apiCategory);
 
 app.use('/*', routes);
 
