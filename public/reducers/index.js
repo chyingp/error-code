@@ -126,6 +126,22 @@ const editingCategory = (state = editCategoryInitialState, action) => {
 				show: false,
 				item: {}
 			}	
+		case 'MOD_CATEGORY_PENDING':
+			return {
+				...state,
+				status: 'pending'
+			}
+		case 'MOD_CATEGORY_SUCCESS':
+			return {
+				...state,
+				show: false,
+				status: 'success'
+			}
+		case 'MOD_CATEGORY_ERROR':
+			return {
+				...state,
+				status: 'error'
+			}	
 		default:
 			return state
 	}

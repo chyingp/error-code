@@ -38,10 +38,16 @@ var del = function(req, res, next){
 
 var mod = function(req, res, next){
 	var query = {
-		_id: req.body.id.toString()
+		_id: req.body._id.toString()
 	};
 
-	CategoryModel.update(query, {desc: req.body.desc, name: req.body.name}, function(err, rawResponse){
+	var newItem = {
+		desc: req.body.desc, 
+		name: req.body.name,
+		modify_at: new Date()
+	};
+
+	CategoryModel.update(query, newItem, function(err, rawResponse){
 		if(err){
 			console.log(err);
 		}else{

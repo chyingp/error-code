@@ -54,8 +54,9 @@ class Edit extends React.Component {
 		}
 
 		this.props.onConfirm({
+			_id: this.props.item._id,
 			name: name,
-			desc: this.state.desc
+			desc: this.state.desc.trim()
 		})
 	}
 

@@ -114,7 +114,7 @@ class AddErrorCode extends React.Component {
 	}
 
 	handleConfirmEdit(item) {
-
+		this.props.modCategory(item)
 	}
 
 	renderMsg() {
