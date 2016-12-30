@@ -1,6 +1,7 @@
 import React from 'react'
 import Add from './Add'
 import List from './List'
+import Search from './Search'
 import { 
 	ButtonToolbar,
 	Button,
@@ -111,8 +112,11 @@ class AddErrorCode extends React.Component {
 
 		return (
 			<div className="category-wrapper"> 
-				<Add addCategory={props.addCategory} category={props.category} />
-				<List getCategories={props.getCategories} items={props.categories.items} />							
+				<div>
+					<Add className="pull-right" addCategory={props.addCategory} category={props.category} />	
+					<Search className="pull-left" getCategories={props.getCategories} />
+				</div>				
+				<List items={props.categories.items} getCategories={props.getCategories} removeCategory={props.removeCategory} />							
 			</div>					
 		)
 	}

@@ -100,21 +100,57 @@ export let getCategoriesError = (data) => ({
 	payload: data
 })
 
-export let getCategories = (options) => (dispatch) => {
+export let getCategories = (options = {}) => (dispatch) => {
 
 	dispatch( getCategoriesPending() )
 
-	fetch('/api/category/query', {
-		method: 'GET',
-		headers: {
-			'Content-Type': 'application/json'
-		},
-		body: JSON.stringify(options)
-	})
+	fetch('/api/category/query?' + stringify(options))
 	.then((response) => {
 		return response.json()
 	})
 	.then((data) => {
 		dispatch( getCategoriesSuccess(data) )
 	})
+}
+
+// 分类管理 - 删除分类
+export let removeCategoryPending = () => ({
+	type: 'REMOVE_CATEGORY_PENDING'
+})
+
+export let removeCategorySuccess = (data) => ({
+	type: 'REMOVE_CATEGORY_SUCCESS',
+	payload: data
+})
+
+export let removeCategoryError = (data) => ({
+	type: 'REMOVE_CATEGORY_ERROR',
+	payload: data
+})
+
+export let removeCategory = (options = {}) => (dispatch) => {
+
+	dispatch( removeCategoryPending() )
+
+	// fetch('/api/category/del?' + stringify(options))
+	// .then((response) => {
+	// 	return response.json()
+	// })
+	// .then((data) => {
+	// 	dispatch( removeCategorySuccess(options) )
+	// })
+
+	fetch('/api/category/del', {
+		method: 'POST',
+		headers: {
+			'Content-Type': 'application/json'
+		},
+		body: JSON.stringify(options)
+	})
+	.then(function(response){
+		return response.json();
+	})
+	.then(function(data) {
+		dispatch( removeCategorySuccess(options) )
+	});	
 }

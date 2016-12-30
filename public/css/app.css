@@ -1,3 +1,9 @@
+/* 公共样式 */
+.mgr{ margin-right: 15px; }
+.mgl{ margin-left: 15px; }
+.pdr{ padding-right: 15px; }
+.pdl{ padding-left: 15px; }
+
 .show-grid{margin-bottom: 20px;}
 
 /* 搜索 */
@@ -19,3 +25,6 @@
 .category-add-form .code-input{ width: 150px; }
 .category-add-form .desc-input{ width: 400px; }
 .category-add-form .mg-r{margin-right: 10px;}
+
+/* 分类管理 - 查询 */
+.category-search-wrapper{}

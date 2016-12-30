@@ -13,7 +13,7 @@ import {
 } from 'react-bootstrap'
 import classnames from 'classnames'
 
-class AddErrorCode extends React.Component {
+class Add extends React.Component {
 
 	constructor(props){
 		super(props)
@@ -65,15 +65,10 @@ class AddErrorCode extends React.Component {
 		const name = this.state.name
 		const desc = this.state.desc
 		
-		if(!name || !desc) {
-			alert('分类名称或分类描述不能为空');
+		if(!name) {
+			alert('分类名称不能为空');
 			return;
 		}
-
-		// if(!/^\d+$/.test(code)) {
-		// 	alert('错误码必须是整数');
-		// 	return;
-		// }
 
 		this.props.addCategory({
 			name: this.state.name, 
@@ -105,9 +100,10 @@ class AddErrorCode extends React.Component {
 		let props = this.props
 		let btnDisabled = props.status === 'pending'
 		let btnText = props.status === 'pending' ? '添加中...' : '新增'
+		let className = classnames('show-grid', 'category-add-wrapper', props.className)
 
 		return (
-			<div className="show-grid category-add-wrapper">
+			<div className={className}>
 				<Form className="category-add-form" inline>					
 				    <FormGroup controlId="formInlineName">
 				    	<FormControl
@@ -138,4 +134,4 @@ class AddErrorCode extends React.Component {
 	}
 }
 
-export default AddErrorCode;
+export default Add

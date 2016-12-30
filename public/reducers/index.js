@@ -96,6 +96,11 @@ const categories = (state = categoriesInitialState, action) => {
 				...state,
 				status: 'error'
 			};	
+		case 'REMOVE_CATEGORY_SUCCESS':
+			return {
+				...state,
+				items: state.items.filter((item) => item._id !== action.payload._id)
+			}	
 		default:
 			return state;	
 	}
