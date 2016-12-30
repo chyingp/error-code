@@ -1,9 +1,10 @@
 var ErrorCodeModel = require('../model/errorCode');
+var CategoryModel = require('../model/category');
 var _ = require('lodash');
 
 var add = function(req, res, next){
 	
-	var opt = _.pick(req.body, ['code', 'brief_desc', 'verbose']);
+	var opt = _.pick(req.body, ['code', 'brief_desc', 'verbose_desc', 'category_id']);
 	opt.created_at = new Date();
 
 	var errorCode = new ErrorCodeModel(opt);
@@ -50,22 +51,31 @@ var mod = function(req, res, next){
 };
 
 var query = function(req, res, next){
-	// var options = {
-	// 	_id: req.query.id.toObjectId()
-	// };
+
 	var options = Object.assign({}, req.query);
-	// if(req.query.id){
-	// 	options.query._id = req.query.id.toObjectId();
-	// }
+
 	ErrorCodeModel.find(options, function(err, errorCodes){
-		console.log(errorCodes);
-		res.json({
-			ret_code: 0,
-			data: {
-				items: errorCodes,
-				total: errorCodes.length
-			}			
-		});
+		CategoryModel.find({}, function(err, categories){
+			var map = categories.reduce(function(ret, item){
+				ret[item._id.toString()] = item.name;
+				return ret;
+			}, {});
+
+			errorCodes.forEach(function(item){
+				// console.log(typeof item.category_id);
+				if(map[item.category_id]){
+					item.category_name = map[item.category_id];
+				}
+			});
+
+			res.json({
+				ret_code: 0,
+				data: {
+					items: errorCodes,
+					total: errorCodes.length
+				}			
+			});			
+		});		
 	});	
 };
 

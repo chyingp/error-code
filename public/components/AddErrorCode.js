@@ -9,7 +9,9 @@ import {
 	FormControl,
 	ControlLabel,
 	Panel,
-	Alert
+	Alert,
+	DropdownButton,
+	MenuItem
 } from 'react-bootstrap'
 
 class AddErrorCode extends React.Component {
@@ -21,6 +23,7 @@ class AddErrorCode extends React.Component {
 			code: '',
 			brief_desc: '',
 			verbose_desc: '',
+			category_id: '',
 			showErrMsg: false,
 			errMsg: ''
 		}
@@ -28,6 +31,7 @@ class AddErrorCode extends React.Component {
 		this.onAddClick = this.onAddClick.bind(this)		
 		this.handleInputChange = this.handleInputChange.bind(this)
 		this.handleAlertDismiss = this.handleAlertDismiss.bind(this)
+		this.handleCategoryChange = this.handleCategoryChange.bind(this)
 	}
 
 	componentWillReceiveProps(nextProps) {
@@ -53,6 +57,18 @@ class AddErrorCode extends React.Component {
 				errMsg: msg
 			})
 		}
+
+		if( nextProps.categories.status==='success' && props.categories.status!=='success' ) {
+			if( nextProps.categories.items.length ){
+				this.setState({
+					category_id: nextProps.categories.items[0]._id
+				})
+			}
+		}
+	}
+
+	componentDidMount() {
+		this.props.getCategories()
 	}
 
 	handleInputChange(key, evt) {
@@ -65,6 +81,7 @@ class AddErrorCode extends React.Component {
 		const code = this.state.code
 		const brief_desc = this.state.brief_desc
 		const verbose_desc = this.state.verbose_desc
+		const category_id = this.state.category_id
 		
 		if(!code || !brief_desc) {
 			alert('错误码/错误描述 不能为空');
@@ -76,10 +93,16 @@ class AddErrorCode extends React.Component {
 			return;
 		}
 
+		if(!category_id){
+			alert('请选择分类');
+			return;
+		}
+
 		this.props.addErrorCode({
 			code: this.state.code, 
 			brief_desc: this.state.brief_desc,
-			verbose_desc: this.state.verbose_desc
+			verbose_desc: this.state.verbose_desc,
+			category_id: this.state.category_id
 		})
 	}
 
@@ -87,6 +110,12 @@ class AddErrorCode extends React.Component {
 		this.setState({
 			showErrMsg: false,
 			errMsg: ''
+		})
+	}
+
+	handleCategoryChange(category_id) {
+		this.setState({
+			category_id: category_id	
 		})
 	}
 
@@ -100,6 +129,33 @@ class AddErrorCode extends React.Component {
 		return (
 			<Alert bsStyle={alertStyle} onDismiss={this.handleAlertDismiss}>{this.state.errMsg}</Alert>
 		)
+	}
+
+	renderCategories() {
+		let props = this.props
+		let status = props.categories.status
+		let title = '分类拉取中...'
+		let item
+		let category_id = this.state.category_id
+
+		if(status === 'pending'){
+			return <div>{title}</div>
+		}
+		else if(status === 'success'){
+			
+			if(category_id) {
+				item = props.categories.items.find((item) => item._id === category_id)
+				title = item && item.name
+			}
+
+			return (
+				<DropdownButton bsStyle="default" title={title} id="cate-list">				
+					{props.categories.items.map((item) => 
+						<MenuItem eventKey={item._id} key={item._id} onSelect={this.handleCategoryChange} active={item._id===category_id}>{item.name}</MenuItem>
+					)}
+				</DropdownButton>	
+			)			
+		}
 	}
 
 	render() {
@@ -127,6 +183,9 @@ class AddErrorCode extends React.Component {
 					    		value={this.state.brief_desc}
 								onChange={this.handleInputChange.bind(this, 'brief_desc')}
 					    	/>
+					    </FormGroup>
+					    <FormGroup>
+					    	{this.renderCategories()}
 					    </FormGroup>
 					    <FormGroup>
 					    	<FormControl 

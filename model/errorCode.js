@@ -12,11 +12,12 @@ String.prototype.toObjectId = function() {
 // console.log('545f489dea12346454ae793b'.toObjectId());
 
 var errorCodeSchema = new Schema({
-	code: String,  // 错误码
-	brief_desc: String,  // 错误描述
-	created_at: Date,
+	code: String,  // 错误码	
+	brief_desc: String,  // 错误描述	
 	// date: String,
-	verbose_desc: String  // 其他信息
+	verbose_desc: String,  // 其他信息
+	created_at: Date,
+	category_id: String
 });
 
 var errorCodeModel = mongoose.model('code', errorCodeSchema); 
