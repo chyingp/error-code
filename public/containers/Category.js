@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { addCategory, getCategories, removeCategory } from '../actions'
+import { addCategory, getCategories, removeCategory, startEditCategory, stopEditCategory } from '../actions'
 import Category from '../components/Category/App'
 
 const mapStateToProps = (state) => ({
@@ -9,7 +9,9 @@ const mapStateToProps = (state) => ({
 const mapDispatchToProps =  ({
 	addCategory: addCategory,
 	getCategories: getCategories,
-	removeCategory: removeCategory
+	removeCategory: removeCategory,
+	startEditCategory: startEditCategory,
+	stopEditCategory: stopEditCategory
 })
 
 export default connect(

@@ -2,6 +2,7 @@ import React from 'react'
 import Add from './Add'
 import List from './List'
 import Search from './Search'
+import Edit from './Edit'
 import { 
 	ButtonToolbar,
 	Button,
@@ -25,12 +26,15 @@ class AddErrorCode extends React.Component {
 			brief_desc: '',
 			verbose_desc: '',
 			showErrMsg: false,
-			errMsg: ''
+			errMsg: '',
+			showEdit: false  // 是否展示分类编辑窗口
 		}
 
 		this.onAddClick = this.onAddClick.bind(this)		
 		this.handleInputChange = this.handleInputChange.bind(this)
 		this.handleAlertDismiss = this.handleAlertDismiss.bind(this)
+		this.handleEdit = this.handleEdit.bind(this)
+		this.handleConfirmEdit = this.handleConfirmEdit.bind(this)
 	}
 
 	componentWillReceiveProps(nextProps) {
@@ -93,6 +97,26 @@ class AddErrorCode extends React.Component {
 		})
 	}
 
+	handleEdit(item) {
+		// this.setState({
+		// 	showEdit: true
+		// })
+
+		this.props.startEditCategory(item)
+	}
+
+	handleCancelEdit() {
+		// this.setState({
+		// 	showEdit: false
+		// })
+
+		this.props.stopEditCategory()
+	}
+
+	handleConfirmEdit(item) {
+
+	}
+
 	renderMsg() {
 		let props = this.props
 		let alertStyle = props.status === 'success' ? 'success' : 'danger'
@@ -107,16 +131,25 @@ class AddErrorCode extends React.Component {
 
 	render() {
 		let props = this.props
-		let btnDisabled = props.status === 'pending'
-		let btnText = props.status === 'pending' ? '添加中...' : '新增'
+		let editingCategory = props.editingCategory
 
 		return (
-			<div className="category-wrapper"> 
+			<div className="category-wrapper"> 				
 				<div>
 					<Add className="pull-right" addCategory={props.addCategory} category={props.category} />	
 					<Search className="pull-left" getCategories={props.getCategories} />
 				</div>				
-				<List items={props.categories.items} getCategories={props.getCategories} removeCategory={props.removeCategory} />							
+				<List 
+					items={props.categories.items} 
+					getCategories={props.getCategories} 
+					removeCategory={props.removeCategory} 
+					editCategory={this.handleEdit}
+					/>							
+				<Edit 
+					{...editingCategory}					
+					onCancel={this.handleCancelEdit.bind(this)} 
+					onConfirm={this.handleConfirmEdit}
+					/>
 			</div>					
 		)
 	}

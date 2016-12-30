@@ -38,6 +38,10 @@ class AddErrorCode extends React.Component {
 		this.props.removeCategory(item)
 	}
 
+	onEditCategory(item) {
+		this.props.editCategory(item)
+	}
+
 	renderDateTime(created_at) {
 		return created_at ? moment(created_at).format('YYYY年MM月DD日 HH时mm分ss秒') : '-'
 	}
@@ -65,7 +69,7 @@ class AddErrorCode extends React.Component {
 								<td>{this.renderDateTime(item.created_at)}</td>
 								<td>
 									<ButtonToolbar>
-										<Button bsSize="sm">编辑</Button>									
+										<Button bsSize="sm" onClick={this.onEditCategory.bind(this, item)}>编辑</Button>									
 										<Button bsSize="sm" onClick={this.onRemoveCategory.bind(this, item)}>删除</Button>
 									</ButtonToolbar>									
 								</td>

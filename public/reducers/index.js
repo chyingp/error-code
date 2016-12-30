@@ -106,9 +106,35 @@ const categories = (state = categoriesInitialState, action) => {
 	}
 }
 
+let editCategoryInitialState = {
+	item: {},
+	show: false,
+	status: ''
+}
+
+const editingCategory = (state = editCategoryInitialState, action) => {
+	switch(action.type) {
+		case 'START_EDIT_CATEGORY':
+			return {
+				...state,
+				show: true,
+				item: action.payload
+			}
+		case 'STOP_EDIT_CATEGORY':
+			return {
+				...state,
+				show: false,
+				item: {}
+			}	
+		default:
+			return state
+	}
+}
+
 const reducer = combineReducers({
 	category: category,  // 分类
 	categories: categories,  // 分类列表
+	editingCategory: editingCategory,
 	code: errorCode,
 	items: errorCodes,
 	routing: routerReducer

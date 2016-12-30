@@ -57,13 +57,13 @@ class Add extends React.Component {
 
 	handleInputChange(key, evt) {
 		this.setState({
-			[key]: evt.target.value.trim()
+			[key]: evt.target.value
 		})
 	}
 
 	onAddClick() {
-		const name = this.state.name
-		const desc = this.state.desc
+		const name = this.state.name.trim()
+		const desc = this.state.desc.trim()
 		
 		if(!name) {
 			alert('分类名称不能为空');
@@ -128,7 +128,7 @@ class Add extends React.Component {
 				    	disabled={btnDisabled}
 				    	onClick={this.onAddClick}>{btnText}</Button>
 				    {this.renderMsg()}					    
-				</Form>		
+				</Form>
 			</div>				
 		)
 	}

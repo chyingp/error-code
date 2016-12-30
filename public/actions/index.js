@@ -154,3 +154,18 @@ export let removeCategory = (options = {}) => (dispatch) => {
 		dispatch( removeCategorySuccess(options) )
 	});	
 }
+
+// 分类管理 - 编辑分类
+export let startEditCategory = (item) => ({
+	type: 'START_EDIT_CATEGORY',
+	payload: item
+})
+
+export let stopEditCategory = (item) => ({
+	type: 'STOP_EDIT_CATEGORY',
+	payload: item
+})
+
+export let editCategory = (options = {}) => (dispatch) => {
+
+}
