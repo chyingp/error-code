@@ -24,8 +24,8 @@ class App extends React.Component {
 						</Navbar.Brand>
 					</Navbar.Header>
 					<Nav>
-						<NavItem eventKey="search" href="/search">查询</NavItem>
-						<NavItem eventKey="add" href="/add">新增</NavItem>
+						<NavItem eventKey="search" href="/search">错误码查询</NavItem>
+						<NavItem eventKey="add" href="/add">新增错误码</NavItem>
 						<NavItem eventKey="category" href="/category">分类管理</NavItem>
 					</Nav>
 				</Navbar>
