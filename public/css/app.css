@@ -21,7 +21,7 @@
 .category-add-wrapper{}
 .category-add-form {/*text-align: center;*/}
 .category-add-form .form-group{margin-right: 10px;}
-.category-add-form .err-msg{display: inline-block; margin-left: 10px;}
+.category-add-form .err-msg{ display: inline-block; padding-top: 5px; padding-bottom: 5px; margin-bottom: 0; margin-right: 10px;  }
 .category-add-form .code-input{ width: 150px; }
 .category-add-form .desc-input{ width: 400px; }
 .category-add-form .mg-r{margin-right: 10px;}

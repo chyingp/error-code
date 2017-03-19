@@ -96,6 +96,11 @@ const categories = (state = categoriesInitialState, action) => {
 				...state,
 				status: 'error'
 			};	
+		case 'ADD_CATEGORY_SUCCESS':
+			return {
+				...state,
+				items: [...state.items, action.payload]
+			};			
 		case 'REMOVE_CATEGORY_SUCCESS':
 			return {
 				...state,

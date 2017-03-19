@@ -32,7 +32,7 @@ export let addCategory = (options) => (dispatch) => {
 		return response.json()
 	})
 	.then((data) => {
-		dispatch( addCategorySuccess(data) )
+		dispatch( addCategorySuccess(data.data) )
 	})
 }
 

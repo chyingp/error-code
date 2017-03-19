@@ -92,7 +92,7 @@ class Add extends React.Component {
 			return null;
 
 		return (
-			<div className={className} onDismiss={this.handleAlertDismiss}>{this.state.errMsg}</div>
+			<Alert className={className} onDismiss={this.handleAlertDismiss}>{this.state.errMsg}</Alert>
 		)
 	}
 
@@ -104,7 +104,8 @@ class Add extends React.Component {
 
 		return (
 			<div className={className}>
-				<Form className="category-add-form" inline>					
+				<Form className="category-add-form" inline>
+					{this.renderMsg()}					    
 				    <FormGroup controlId="formInlineName">
 				    	<FormControl
 				    		type="text"
@@ -126,8 +127,7 @@ class Add extends React.Component {
 				    	bsStyle="primary"
 				    	className="search-btn"
 				    	disabled={btnDisabled}
-				    	onClick={this.onAddClick}>{btnText}</Button>
-				    {this.renderMsg()}					    
+				    	onClick={this.onAddClick}>{btnText}</Button>				    
 				</Form>
 			</div>				
 		)

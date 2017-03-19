@@ -10,13 +10,14 @@ function add (req, res, next){
 
 	var category = new CategoryModel(opt);
 
-	category.save(function(err){
+	category.save(function(err, item){
 		if(err){
 			res.send(err);
 		}else{
 			res.json({
 				ret_code: 0,
-				data: opt
+				// data: opt
+				data: item
 			});
 		}
 	});
@@ -64,6 +65,8 @@ function query (req, res, next){
 	// 	_id: req.query.id.toObjectId()
 	// };
 	var options = Object.assign({}, req.query);
+	if(options.name) options.name = decodeURIComponent(options.name);
+		
 	// if(req.query.id){
 	// 	options.query._id = req.query.id.toObjectId();
 	// }
