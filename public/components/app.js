@@ -20,7 +20,7 @@ class App extends React.Component {
 				<Navbar>
 					<Navbar.Header>
 						<Navbar.Brand>
-							<a href="#">错误码管理</a>
+							<span>错误码管理</span>
 						</Navbar.Brand>
 					</Navbar.Header>
 					<Nav>

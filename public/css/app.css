@@ -7,11 +7,11 @@
 .show-grid{margin-bottom: 20px;}
 
 /* 搜索 */
-.search-form {text-align: center; margin-bottom: 10px;}
+.search-form {/* text-align: center; */ margin-bottom: 10px;}
 .search-form .search-btn{ margin-left: 10px; }
 
 /* 新增 */
-.add-wrapper{width: 450px; margin: 0 auto;}
+.add-wrapper{width: 450px; /* margin: 0 auto; */}
 .add-form {/*text-align: center;*/}
 .add-form .code-input{ width: 150px; }
 .add-form .desc-input{ width: 400px; }

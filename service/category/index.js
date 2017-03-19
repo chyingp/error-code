@@ -1,6 +1,7 @@
 var CategoryModel = require('../../model/category');
 var _ = require('lodash');
 
+// 新增分类
 function add (req, res, next){
 	
 	var opt = _.pick(req.body, ['name', 'desc']);
@@ -21,6 +22,7 @@ function add (req, res, next){
 	});
 };
 
+// 删除分类
 function del (req, res, next){
 	var options = {
 		_id: req.body._id.toObjectId()
@@ -35,7 +37,7 @@ function del (req, res, next){
 	});	
 };
 
-
+// 修改分类
 function mod (req, res, next){
 	var query = {
 		_id: req.body._id.toString()
@@ -56,6 +58,7 @@ function mod (req, res, next){
 	});
 };
 
+// 查询分类
 function query (req, res, next){
 	// var options = {
 	// 	_id: req.query.id.toObjectId()

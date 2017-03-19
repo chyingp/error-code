@@ -8,7 +8,7 @@ export let fetchedErrorCode = (data) => ({
 })
 
 export let queryErrorCode = (options = {}) => ((dispatch) => {
-	fetch('/api/ec/query?' + stringify(options) )
+	fetch('/service/code/query?' + stringify(options) )
 		.then(function(response) {
 			return response.json()
 		}).then(function(body) {
@@ -36,7 +36,7 @@ export let addErrorCode =(options) => (dispatch) => {
 // return;
 	dispatch( addErrorCodePending() )
 
-	fetch('/api/ec/add', {
+	fetch('/service/code/add', {
 		method: 'POST',
 		headers: {
 			'Content-Type': 'application/json'
