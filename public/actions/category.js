@@ -21,7 +21,7 @@ export let addCategory = (options) => (dispatch) => {
 
 	dispatch( addCategoryPending() )
 
-	fetch('/api/category/add', {
+	fetch('/service/category/add', {
 		method: 'POST',
 		headers: {
 			'Content-Type': 'application/json'
@@ -55,7 +55,7 @@ export let getCategories = (options = {}) => (dispatch) => {
 
 	dispatch( getCategoriesPending() )
 
-	fetch('/api/category/query?' + stringify(options))
+	fetch('/service/category/query?' + stringify(options))
 	.then((response) => {
 		return response.json()
 	})
@@ -83,7 +83,7 @@ export let removeCategory = (options = {}) => (dispatch) => {
 
 	dispatch( removeCategoryPending() )
 
-	// fetch('/api/category/del?' + stringify(options))
+	// fetch('/service/category/del?' + stringify(options))
 	// .then((response) => {
 	// 	return response.json()
 	// })
@@ -91,7 +91,7 @@ export let removeCategory = (options = {}) => (dispatch) => {
 	// 	dispatch( removeCategorySuccess(options) )
 	// })
 
-	fetch('/api/category/del', {
+	fetch('/service/category/del', {
 		method: 'POST',
 		headers: {
 			'Content-Type': 'application/json'
@@ -136,7 +136,7 @@ export let modCategory = (options = {}) => (dispatch) => {
 
 	dispatch( modCategoryPending() )
 
-	fetch('/api/category/mod', {
+	fetch('/service/category/mod', {
 		method: 'POST',
 		headers: {
 			'Content-Type': 'application/json'
