@@ -28,6 +28,8 @@ require('./model/db');
 var apiErrorCode = require('./api/errorCode.js');
 var apiCategory = require('./api/category.js');
 
+app.use('/service/', require('./routes/service'));
+
 app.use('/api/ec/', apiErrorCode);
 app.use('/api/category/', apiCategory);
 

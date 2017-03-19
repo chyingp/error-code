@@ -1,0 +1,34 @@
+{
+  "name"        : "error-codes",  // 应用名称
+  "script"      : "./bin/www",  // 启动脚本
+  "cwd"         : "./",  // 当前工作路径
+  "watch": [  // 以下目录或文件，发生变化时，自动重启（重要）
+    "api",
+    "bin",
+    "model",
+    "routes",
+    "views",
+    "public",
+    "service",
+    "app.js",
+    "app.json"
+  ],
+  "ignore_watch" : [  // 以下目录或文件，发生变化时，不自动重启（重要）
+    "node_modules", 
+    "logs"
+  ],
+  "watch_options": {
+    "followSymlinks": false
+  },
+  "error_file" : "./logs/app-err.log",  // 错误日志（重要）
+  "out_file"   : "./logs/app-out.log",  // 普通日志
+  "merge_logs": true,
+  "env": {
+    "PORT": 3000,  // 应用运行时，监听的本地端口
+  },
+  "env_dev": {  // 环境变量配置（重要）    
+    "NODE_ENV": "production",  // node环境，部分逻辑在非 production 情况下，才会执行，比如打印调试日志
+    "REMOTE_ADDR": "http://manager.nanhua.net/",  // CGI访问路径的前缀；为了进行访问权限校验，需要调用CGI；
+    "MONITOR_HOST": "http://monitor.nanhua.net"  // CGI请求上报的前缀；访问CGI后，会对CGI的耗时等进行上报；
+  }
+}
