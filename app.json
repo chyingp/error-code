@@ -24,7 +24,7 @@
   "out_file"   : "./logs/app-out.log",  // 普通日志
   "merge_logs": true,
   "env": {
-    "PORT": 3000,  // 应用运行时，监听的本地端口
+    "PORT": 3000  // 应用运行时，监听的本地端口
   },
   "env_dev": {  // 环境变量配置（重要）    
     "NODE_ENV": "production",  // node环境，部分逻辑在非 production 情况下，才会执行，比如打印调试日志

@@ -1,0 +1,5247 @@
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+[0mGET /search [32m200 [0m12.855 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m4.353 ms - 915[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m7.803 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.850 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m7.231 ms - 2230169[0m
+[0mGET /api/ec/query? [32m200 [0m20.721 ms - 228[0m
+[0mGET /favicon.ico [32m200 [0m0.732 ms - 812[0m
+[0mGET /category [32m200 [0m0.526 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m1.837 ms - 915[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m1.694 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.076 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m1.988 ms - 2230169[0m
+[0mGET /service/category/query? [32m200 [0m0.914 ms - 812[0m
+[0mGET /favicon.ico [32m200 [0m0.553 ms - 812[0m
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+[0mGET /category [32m200 [0m14.737 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m4.619 ms - 915[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m11.334 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m2.700 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m7.718 ms - 2230169[0m
+[0mGET /service/category/query? [32m200 [0m0.813 ms - 812[0m
+[0mGET /favicon.ico [32m200 [0m0.957 ms - 812[0m
+[0mGET /category [32m200 [0m1.768 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m1.469 ms - 915[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m1.586 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.532 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m1.738 ms - 2230169[0m
+[0mGET /service/category/query? [32m200 [0m0.602 ms - 812[0m
+[0mGET /favicon.ico [32m200 [0m1.250 ms - 812[0m
+mongodb connected successfully!
+[0mGET /category [32m200 [0m27.442 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m4.735 ms - 915[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m7.989 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m2.573 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m3.792 ms - 2230169[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m29.689 ms - 673[0m
+[0mGET /favicon.ico [32m200 [0m0.748 ms - 812[0m
+[0mGET /category [32m200 [0m0.893 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m1.026 ms - 915[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m1.453 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m2.273 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m1.117 ms - 2230169[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m5.826 ms - 673[0m
+[0mGET /favicon.ico [32m200 [0m0.855 ms - 812[0m
+[0mPOST /service/category/add [32m200 [0m37.403 ms - 134[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:29:56.074Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m11.816 ms - 827[0m
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+[0mGET /category [32m200 [0m16.207 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m9.224 ms - 915[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m15.527 ms - 121260[0m
+[0mGET /bundle/bundle.js [32m200 [0m6.017 ms - 2230169[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m2.663 ms - 812[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:29:56.074Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m34.024 ms - 827[0m
+[0mGET /favicon.ico [32m200 [0m0.798 ms - 812[0m
+[0mPOST /service/category/mod [32m200 [0m48.369 ms - 28[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m5.961 ms - 828[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m11.085 ms - 828[0m
+[0mGET /category [32m200 [0m1.751 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m1.486 ms - 915[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m1.529 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m0.961 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m1.728 ms - 2230169[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m3.887 ms - 828[0m
+[0mGET /favicon.ico [32m200 [0m1.444 ms - 812[0m
+[0mGET /category [32m200 [0m0.622 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m3.082 ms - 915[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m4.436 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m0.529 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m2.207 ms - 2230169[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m4.544 ms - 828[0m
+[0mGET /favicon.ico [32m200 [0m0.588 ms - 812[0m
+[0mGET /add [32m200 [0m1.745 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m1.217 ms - 915[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m1.184 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m0.811 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m1.402 ms - 2230169[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m4.244 ms - 828[0m
+[0mGET /favicon.ico [32m200 [0m0.972 ms - 812[0m
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+[0mGET /add [32m200 [0m13.574 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m4.792 ms - 915[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m9.088 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m2.629 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m5.226 ms - 2230181[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m36.612 ms - 828[0m
+[0mGET /favicon.ico [32m200 [0m1.815 ms - 812[0m
+[0mGET /search [32m200 [0m0.770 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m2.142 ms - 915[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m2.532 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m2.156 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m2.467 ms - 2230181[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/code/query? [32m200 [0m5.156 ms - 828[0m
+[0mGET /favicon.ico [32m200 [0m0.585 ms - 812[0m
+mongodb connected successfully!
+[0mGET /search [32m200 [0m16.786 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m4.167 ms - 915[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m7.929 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m2.771 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m4.237 ms - 2230181[0m
+[0mGET /service/code/query? [32m200 [0m20.904 ms - 228[0m
+[0mGET /favicon.ico [32m200 [0m0.966 ms - 812[0m
+[0mGET /add [32m200 [0m6.452 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m1.819 ms - 915[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m2.077 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.363 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m2.077 ms - 2230181[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m15.898 ms - 828[0m
+[0mGET /favicon.ico [32m200 [0m1.022 ms - 812[0m
+[0mGET /search [32m200 [0m0.743 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m2.720 ms - 915[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m3.027 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m0.675 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m2.686 ms - 2230181[0m
+[0mGET /service/code/query? [32m200 [0m4.021 ms - 228[0m
+[0mGET /favicon.ico [32m200 [0m0.582 ms - 812[0m
+[0mGET /add [36m304 [0m1.079 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.981 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.183 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.208 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m3.413 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.695 ms - -[0m
+[0mGET /category [36m304 [0m0.577 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.749 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.648 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.878 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m4.819 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.091 ms - -[0m
+[0mGET /search [36m304 [0m0.720 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.557 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.810 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.456 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m3.322 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.677 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.153 ms - -[0m
+[0mGET /search [36m304 [0m0.612 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.831 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.882 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.755 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m3.819 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.872 ms - -[0m
+[0mGET /add [36m304 [0m0.616 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.793 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.676 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.565 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m3.795 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.566 ms - -[0m
+[0mGET /category [36m304 [0m18.686 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m3.545 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.844 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m2.072 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m5.448 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.003 ms - -[0m
+[0mGET /search [36m304 [0m0.806 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.649 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.693 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.730 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m4.299 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.857 ms - -[0m
+[0mGET /add [36m304 [0m0.622 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.908 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.230 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.833 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.706 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.707 ms - -[0m
+[0mGET /add [36m304 [0m0.596 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.855 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.856 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.895 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.741 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.672 ms - -[0m
+[0mGET /category [36m304 [0m1.541 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.622 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.033 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m2.406 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m3.012 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.658 ms - -[0m
+[0mGET /add [36m304 [0m3.178 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.643 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.459 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.115 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m4.771 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.092 ms - -[0m
+[0mGET /search [36m304 [0m0.641 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.578 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.544 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.558 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m3.888 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.617 ms - -[0m
+mongodb connected successfully!
+mongodb connected successfully!
+[0mGET /search [32m200 [0m12.828 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m5.516 ms - 915[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m5.447 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m2.484 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m4.772 ms - 2230198[0m
+[0mGET /service/code/query? [32m200 [0m21.314 ms - 228[0m
+[0mGET /favicon.ico [32m200 [0m1.217 ms - 812[0m
+mongodb connected successfully!
+[0mGET /search [32m200 [0m13.980 ms - 812[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m6.736 ms - 121260[0m
+[0mGET /css/app.css [32m200 [0m6.363 ms - 915[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.945 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m5.667 ms - 2230175[0m
+[0mGET /service/code/query? [32m200 [0m22.614 ms - 228[0m
+[0mGET /favicon.ico [32m200 [0m0.621 ms - 812[0m
+[0mGET /search [32m200 [0m0.538 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m0.937 ms - 915[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m0.985 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.992 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m1.251 ms - 2230175[0m
+[0mGET /service/code/query? [32m200 [0m4.214 ms - 228[0m
+[0mGET /favicon.ico [32m200 [0m0.509 ms - 812[0m
+[0mGET /add [36m304 [0m1.161 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.335 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.338 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.311 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m22.426 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.167 ms - -[0m
+[0mGET /category [36m304 [0m0.870 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m2.255 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.436 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.475 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m5.134 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.934 ms - -[0m
+[0mGET /search [36m304 [0m0.545 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.709 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.633 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.591 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m3.800 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.927 ms - -[0m
+[0mGET /category [36m304 [0m0.762 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.485 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.720 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.732 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m3.429 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.951 ms - -[0m
+[0mGET /add [36m304 [0m1.208 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.543 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.522 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.373 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.923 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.341 ms - -[0m
+[0mGET /search [36m304 [0m1.618 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.848 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.000 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.031 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m5.098 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.579 ms - -[0m
+[0mGET /add [36m304 [0m0.581 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.100 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.185 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.290 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m3.870 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.709 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.455 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.592 ms - -[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m3.117 ms - 812[0m
+[0mGET /search [36m304 [0m0.625 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.434 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.417 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.351 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m5.507 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m2.289 ms - -[0m
+[0mGET /add [36m304 [0m1.268 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.227 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.100 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.105 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m5.014 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.557 ms - -[0m
+[0mGET /search [36m304 [0m1.055 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.640 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.599 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.544 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m2.593 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.033 ms - -[0m
+[0mGET /add [36m304 [0m0.790 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.573 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.573 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.887 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m3.188 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.584 ms - -[0m
+[0mGET /category [36m304 [0m0.574 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.575 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.552 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.588 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m4.130 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.621 ms - -[0m
+[0mGET /add [36m304 [0m0.602 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.589 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.569 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.263 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m3.969 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.095 ms - -[0m
+[0mGET /search [36m304 [0m0.691 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.982 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.022 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.893 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m2.769 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.530 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.464 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.390 ms - -[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m0.793 ms - 812[0m
+[0mGET /add [36m304 [0m0.928 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.175 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.176 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.312 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m1.962 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.767 ms - -[0m
+[0mGET /search [36m304 [0m0.680 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.695 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.703 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.748 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m3.059 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.540 ms - -[0m
+[0mGET /add [36m304 [0m1.021 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.875 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.870 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.908 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m3.967 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.886 ms - -[0m
+[0mGET /search [36m304 [0m0.558 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.932 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.922 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.938 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m4.300 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.670 ms - -[0m
+mongodb connected successfully!
+mongodb connected successfully!
+[0mGET /search [36m304 [0m13.768 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m2.726 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m5.371 ms - -[0m
+[0mGET /css/app.css [32m200 [0m6.847 ms - 927[0m
+[0mGET /service/code/query? [36m304 [0m23.367 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m1.519 ms - 812[0m
+[0mGET /category [36m304 [0m3.230 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.545 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.388 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.323 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m20.984 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.754 ms - -[0m
+[]
+[0mGET /service/category/query?name=%E4%BA%A4%E6%98%93 [32m200 [0m3.712 ms - 44[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.533 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.491 ms - -[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.213 ms - 812[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m4.815 ms - 828[0m
+[]
+[0mGET /service/category/query?name=%E4%BA%A4%E6%98%93 [32m200 [0m1.353 ms - 44[0m
+[0mPOST /service/category/add [32m200 [0m41.812 ms - 130[0m
+mongodb connected successfully!
+[ { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 } ]
+[0mGET /service/category/query?name=web [32m200 [0m38.827 ms - 198[0m
+[]
+[0mGET /service/category/query?name=%E4%BA%A4%E6%98%93 [32m200 [0m4.527 ms - 44[0m
+[]
+[0mGET /service/category/query? [32m200 [0m1.660 ms - 44[0m
+[]
+[0mGET /service/category/query? [32m200 [0m1.330 ms - 44[0m
+mongodb connected successfully!
+[0mGET /category [32m200 [0m14.905 ms - 812[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m6.757 ms - 121260[0m
+[0mGET /css/app.css [32m200 [0m7.754 ms - 927[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m2.262 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m7.802 ms - 2230175[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 },
+  { _id: 58ce6115e320b8269438e388,
+    name: 'web2',
+    desc: 'web2',
+    created_at: 2017-03-19T10:44:37.597Z,
+    modify_at: 2017-03-19T10:44:37.597Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m32.710 ms - 978[0m
+[0mGET /favicon.ico [32m200 [0m1.599 ms - 812[0m
+[0mGET /category [32m200 [0m1.137 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m1.448 ms - 927[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m1.372 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.698 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m1.689 ms - 2230175[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 },
+  { _id: 58ce6115e320b8269438e388,
+    name: 'web2',
+    desc: 'web2',
+    created_at: 2017-03-19T10:44:37.597Z,
+    modify_at: 2017-03-19T10:44:37.597Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m7.332 ms - 978[0m
+[0mGET /favicon.ico [32m200 [0m1.273 ms - 812[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 } ]
+[0mGET /service/category/query?name=%E4%BA%A4%E6%98%93%E6%A8%A1%E5%9D%97 [32m200 [0m7.547 ms - 205[0m
+[]
+[0mGET /service/category/query?name=%E4%BA%A4%E6%98%93 [32m200 [0m3.350 ms - 44[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 } ]
+[0mGET /service/category/query?name=%E4%BA%A4%E6%98%93%E6%A8%A1%E5%9D%97 [32m200 [0m3.188 ms - 205[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce5da410cd1925683577b6,
+    name: 'web',
+    desc: 'web后台1',
+    created_at: 2017-03-19T10:29:56.074Z,
+    modify_at: 2017-03-19T10:33:20.675Z,
+    __v: 0 },
+  { _id: 58ce6115e320b8269438e388,
+    name: 'web2',
+    desc: 'web2',
+    created_at: 2017-03-19T10:44:37.597Z,
+    modify_at: 2017-03-19T10:44:37.597Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m13.569 ms - 978[0m
+[0mPOST /service/category/del [32m200 [0m22.596 ms - 14[0m
+[0mPOST /service/category/del [32m200 [0m1.837 ms - 14[0m
+[0mPOST /service/category/add [32m200 [0m15.342 ms - 124[0m
+mongodb connected successfully!
+mongodb connected successfully!
+[0mGET /category [32m200 [0m22.794 ms - 812[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m8.484 ms - 121260[0m
+[0mGET /css/app.css [32m200 [0m6.546 ms - 927[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m2.293 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m5.637 ms - 2230326[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce628149ab0526f0f40232,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:50:41.964Z,
+    modify_at: 2017-03-19T10:50:41.964Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m32.544 ms - 817[0m
+[0mGET /favicon.ico [32m200 [0m1.894 ms - 812[0m
+[0mPOST /service/category/add [32m200 [0m38.622 ms - 132[0m
+[0mPOST /service/category/add [32m200 [0m3.540 ms - 133[0m
+[0mGET /category [32m200 [0m25.370 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m2.982 ms - 927[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m3.340 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.183 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m1.348 ms - 2230326[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce628149ab0526f0f40232,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:50:41.964Z,
+    modify_at: 2017-03-19T10:50:41.964Z,
+    __v: 0 },
+  { _id: 58ce62eaffee53273e42675e,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:26.476Z,
+    modify_at: 2017-03-19T10:52:26.476Z,
+    __v: 0 },
+  { _id: 58ce62f6ffee53273e42675f,
+    name: 'hello1',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:38.709Z,
+    modify_at: 2017-03-19T10:52:38.709Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m6.300 ms - 1122[0m
+[0mGET /favicon.ico [32m200 [0m0.946 ms - 812[0m
+[0mPOST /service/category/add [32m200 [0m2.830 ms - 129[0m
+[0mGET /category [32m200 [0m1.983 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m2.973 ms - 927[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m3.633 ms - 121260[0m
+[0mGET /bundle/bundle.js [32m200 [0m2.992 ms - 2230326[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.065 ms - 812[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce628149ab0526f0f40232,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:50:41.964Z,
+    modify_at: 2017-03-19T10:50:41.964Z,
+    __v: 0 },
+  { _id: 58ce62eaffee53273e42675e,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:26.476Z,
+    modify_at: 2017-03-19T10:52:26.476Z,
+    __v: 0 },
+  { _id: 58ce62f6ffee53273e42675f,
+    name: 'hello1',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:38.709Z,
+    modify_at: 2017-03-19T10:52:38.709Z,
+    __v: 0 },
+  { _id: 58ce62fbffee53273e426760,
+    name: 'fuck',
+    desc: 'you',
+    created_at: 2017-03-19T10:52:43.947Z,
+    modify_at: 2017-03-19T10:52:43.947Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m5.877 ms - 1271[0m
+[0mGET /favicon.ico [32m200 [0m0.727 ms - 812[0m
+[0mPOST /service/category/add [32m200 [0m2.941 ms - 124[0m
+mongodb connected successfully!
+[0mGET /category [32m200 [0m17.875 ms - 812[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m5.034 ms - 121260[0m
+[0mGET /css/app.css [32m200 [0m6.154 ms - 927[0m
+[0mGET /bundle/bundle.js [32m200 [0m6.200 ms - 2230326[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m2.169 ms - 812[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce628149ab0526f0f40232,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:50:41.964Z,
+    modify_at: 2017-03-19T10:50:41.964Z,
+    __v: 0 },
+  { _id: 58ce62eaffee53273e42675e,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:26.476Z,
+    modify_at: 2017-03-19T10:52:26.476Z,
+    __v: 0 },
+  { _id: 58ce62f6ffee53273e42675f,
+    name: 'hello1',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:38.709Z,
+    modify_at: 2017-03-19T10:52:38.709Z,
+    __v: 0 },
+  { _id: 58ce62fbffee53273e426760,
+    name: 'fuck',
+    desc: 'you',
+    created_at: 2017-03-19T10:52:43.947Z,
+    modify_at: 2017-03-19T10:52:43.947Z,
+    __v: 0 },
+  { _id: 58ce634cffee53273e426761,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:54:04.895Z,
+    modify_at: 2017-03-19T10:54:04.895Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m31.533 ms - 1415[0m
+[0mGET /favicon.ico [32m200 [0m1.119 ms - 812[0m
+[0mPOST /service/category/add [32m200 [0m38.744 ms - 171[0m
+[0mGET /category [32m200 [0m2.824 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m2.064 ms - 927[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m3.532 ms - 121260[0m
+[0mGET /bundle/bundle.js [32m200 [0m2.589 ms - 2230326[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m0.937 ms - 812[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce628149ab0526f0f40232,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:50:41.964Z,
+    modify_at: 2017-03-19T10:50:41.964Z,
+    __v: 0 },
+  { _id: 58ce62eaffee53273e42675e,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:26.476Z,
+    modify_at: 2017-03-19T10:52:26.476Z,
+    __v: 0 },
+  { _id: 58ce62f6ffee53273e42675f,
+    name: 'hello1',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:38.709Z,
+    modify_at: 2017-03-19T10:52:38.709Z,
+    __v: 0 },
+  { _id: 58ce62fbffee53273e426760,
+    name: 'fuck',
+    desc: 'you',
+    created_at: 2017-03-19T10:52:43.947Z,
+    modify_at: 2017-03-19T10:52:43.947Z,
+    __v: 0 },
+  { _id: 58ce634cffee53273e426761,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:54:04.895Z,
+    modify_at: 2017-03-19T10:54:04.895Z,
+    __v: 0 },
+  { _id: 58ce63f95eb9d02771218bd1,
+    name: '1222',
+    desc: '2222',
+    created_at: 2017-03-19T10:56:57.195Z,
+    modify_at: 2017-03-19T10:56:57.195Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m16.629 ms - 1566[0m
+[0mGET /favicon.ico [32m200 [0m0.778 ms - 812[0m
+[0mPOST /service/category/add [32m200 [0m3.983 ms - 170[0m
+[0mGET /css/app.css [32m200 [0m6.938 ms - 927[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m7.620 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m5.817 ms - 812[0m
+[0mGET /category [32m200 [0m2.192 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m1.458 ms - 927[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m1.505 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.492 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m1.604 ms - 2230326[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce628149ab0526f0f40232,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:50:41.964Z,
+    modify_at: 2017-03-19T10:50:41.964Z,
+    __v: 0 },
+  { _id: 58ce62eaffee53273e42675e,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:26.476Z,
+    modify_at: 2017-03-19T10:52:26.476Z,
+    __v: 0 },
+  { _id: 58ce62f6ffee53273e42675f,
+    name: 'hello1',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:38.709Z,
+    modify_at: 2017-03-19T10:52:38.709Z,
+    __v: 0 },
+  { _id: 58ce62fbffee53273e426760,
+    name: 'fuck',
+    desc: 'you',
+    created_at: 2017-03-19T10:52:43.947Z,
+    modify_at: 2017-03-19T10:52:43.947Z,
+    __v: 0 },
+  { _id: 58ce634cffee53273e426761,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:54:04.895Z,
+    modify_at: 2017-03-19T10:54:04.895Z,
+    __v: 0 },
+  { _id: 58ce63f95eb9d02771218bd1,
+    name: '1222',
+    desc: '2222',
+    created_at: 2017-03-19T10:56:57.195Z,
+    modify_at: 2017-03-19T10:56:57.195Z,
+    __v: 0 },
+  { _id: 58ce642e5eb9d02771218bd2,
+    name: 'fuck',
+    desc: 'you',
+    created_at: 2017-03-19T10:57:50.594Z,
+    modify_at: 2017-03-19T10:57:50.594Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m24.452 ms - 1715[0m
+[0mGET /favicon.ico [32m200 [0m0.569 ms - 812[0m
+[0mGET /category [32m200 [0m0.701 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m0.983 ms - 927[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m2.468 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.206 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m1.253 ms - 2230326[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce628149ab0526f0f40232,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:50:41.964Z,
+    modify_at: 2017-03-19T10:50:41.964Z,
+    __v: 0 },
+  { _id: 58ce62eaffee53273e42675e,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:26.476Z,
+    modify_at: 2017-03-19T10:52:26.476Z,
+    __v: 0 },
+  { _id: 58ce62f6ffee53273e42675f,
+    name: 'hello1',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:38.709Z,
+    modify_at: 2017-03-19T10:52:38.709Z,
+    __v: 0 },
+  { _id: 58ce62fbffee53273e426760,
+    name: 'fuck',
+    desc: 'you',
+    created_at: 2017-03-19T10:52:43.947Z,
+    modify_at: 2017-03-19T10:52:43.947Z,
+    __v: 0 },
+  { _id: 58ce634cffee53273e426761,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:54:04.895Z,
+    modify_at: 2017-03-19T10:54:04.895Z,
+    __v: 0 },
+  { _id: 58ce63f95eb9d02771218bd1,
+    name: '1222',
+    desc: '2222',
+    created_at: 2017-03-19T10:56:57.195Z,
+    modify_at: 2017-03-19T10:56:57.195Z,
+    __v: 0 },
+  { _id: 58ce642e5eb9d02771218bd2,
+    name: 'fuck',
+    desc: 'you',
+    created_at: 2017-03-19T10:57:50.594Z,
+    modify_at: 2017-03-19T10:57:50.594Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m4.737 ms - 1715[0m
+[0mGET /favicon.ico [32m200 [0m0.749 ms - 812[0m
+[0mPOST /service/category/del [32m200 [0m15.115 ms - 14[0m
+[0mPOST /service/category/add [32m200 [0m7.276 ms - 180[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce628149ab0526f0f40232,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:50:41.964Z,
+    modify_at: 2017-03-19T10:50:41.964Z,
+    __v: 0 },
+  { _id: 58ce62eaffee53273e42675e,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:26.476Z,
+    modify_at: 2017-03-19T10:52:26.476Z,
+    __v: 0 },
+  { _id: 58ce62f6ffee53273e42675f,
+    name: 'hello1',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:38.709Z,
+    modify_at: 2017-03-19T10:52:38.709Z,
+    __v: 0 },
+  { _id: 58ce62fbffee53273e426760,
+    name: 'fuck',
+    desc: 'you',
+    created_at: 2017-03-19T10:52:43.947Z,
+    modify_at: 2017-03-19T10:52:43.947Z,
+    __v: 0 },
+  { _id: 58ce634cffee53273e426761,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:54:04.895Z,
+    modify_at: 2017-03-19T10:54:04.895Z,
+    __v: 0 },
+  { _id: 58ce63f95eb9d02771218bd1,
+    name: '1222',
+    desc: '2222',
+    created_at: 2017-03-19T10:56:57.195Z,
+    modify_at: 2017-03-19T10:56:57.195Z,
+    __v: 0 },
+  { _id: 58ceb97c5eb9d02771218bd3,
+    name: '分类名1',
+    desc: '描述1',
+    created_at: 2017-03-19T17:01:48.802Z,
+    modify_at: 2017-03-19T17:01:48.802Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m6.292 ms - 1725[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.143 ms - -[0m
+[0mGET /css/app.css [36m304 [0m2.253 ms - -[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m0.779 ms - 812[0m
+[0mGET /category [32m200 [0m1.027 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m0.864 ms - 927[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m1.447 ms - 121260[0m
+[0mGET /bundle/bundle.js [32m200 [0m1.229 ms - 2230326[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.143 ms - 812[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce628149ab0526f0f40232,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:50:41.964Z,
+    modify_at: 2017-03-19T10:50:41.964Z,
+    __v: 0 },
+  { _id: 58ce62eaffee53273e42675e,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:26.476Z,
+    modify_at: 2017-03-19T10:52:26.476Z,
+    __v: 0 },
+  { _id: 58ce62f6ffee53273e42675f,
+    name: 'hello1',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:38.709Z,
+    modify_at: 2017-03-19T10:52:38.709Z,
+    __v: 0 },
+  { _id: 58ce62fbffee53273e426760,
+    name: 'fuck',
+    desc: 'you',
+    created_at: 2017-03-19T10:52:43.947Z,
+    modify_at: 2017-03-19T10:52:43.947Z,
+    __v: 0 },
+  { _id: 58ce634cffee53273e426761,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:54:04.895Z,
+    modify_at: 2017-03-19T10:54:04.895Z,
+    __v: 0 },
+  { _id: 58ce63f95eb9d02771218bd1,
+    name: '1222',
+    desc: '2222',
+    created_at: 2017-03-19T10:56:57.195Z,
+    modify_at: 2017-03-19T10:56:57.195Z,
+    __v: 0 },
+  { _id: 58ceb97c5eb9d02771218bd3,
+    name: '分类名1',
+    desc: '描述1',
+    created_at: 2017-03-19T17:01:48.802Z,
+    modify_at: 2017-03-19T17:01:48.802Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m5.891 ms - 1725[0m
+[0mGET /favicon.ico [32m200 [0m0.522 ms - 812[0m
+[0mPOST /service/category/add [32m200 [0m2.700 ms - 180[0m
+[0mGET /category [32m200 [0m1.154 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m2.274 ms - 927[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m2.124 ms - 121260[0m
+[0mGET /bundle/bundle.js [32m200 [0m2.402 ms - 2230326[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m0.729 ms - 812[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce628149ab0526f0f40232,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:50:41.964Z,
+    modify_at: 2017-03-19T10:50:41.964Z,
+    __v: 0 },
+  { _id: 58ce62eaffee53273e42675e,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:26.476Z,
+    modify_at: 2017-03-19T10:52:26.476Z,
+    __v: 0 },
+  { _id: 58ce62f6ffee53273e42675f,
+    name: 'hello1',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:38.709Z,
+    modify_at: 2017-03-19T10:52:38.709Z,
+    __v: 0 },
+  { _id: 58ce62fbffee53273e426760,
+    name: 'fuck',
+    desc: 'you',
+    created_at: 2017-03-19T10:52:43.947Z,
+    modify_at: 2017-03-19T10:52:43.947Z,
+    __v: 0 },
+  { _id: 58ce634cffee53273e426761,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:54:04.895Z,
+    modify_at: 2017-03-19T10:54:04.895Z,
+    __v: 0 },
+  { _id: 58ce63f95eb9d02771218bd1,
+    name: '1222',
+    desc: '2222',
+    created_at: 2017-03-19T10:56:57.195Z,
+    modify_at: 2017-03-19T10:56:57.195Z,
+    __v: 0 },
+  { _id: 58ceb97c5eb9d02771218bd3,
+    name: '分类名1',
+    desc: '描述1',
+    created_at: 2017-03-19T17:01:48.802Z,
+    modify_at: 2017-03-19T17:01:48.802Z,
+    __v: 0 },
+  { _id: 58ceb98b5eb9d02771218bd4,
+    name: '分类名2',
+    desc: '描述2',
+    created_at: 2017-03-19T17:02:03.406Z,
+    modify_at: 2017-03-19T17:02:03.406Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m4.937 ms - 1884[0m
+[0mGET /favicon.ico [32m200 [0m0.953 ms - 812[0m
+[0mPOST /service/category/add [32m200 [0m1.567 ms - 169[0m
+mongodb connected successfully!
+[0mGET /category [32m200 [0m13.746 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m4.299 ms - 927[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m7.915 ms - 121260[0m
+[0mGET /bundle/bundle.js [32m200 [0m4.469 ms - 2230326[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m2.207 ms - 812[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce628149ab0526f0f40232,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:50:41.964Z,
+    modify_at: 2017-03-19T10:50:41.964Z,
+    __v: 0 },
+  { _id: 58ce62eaffee53273e42675e,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:26.476Z,
+    modify_at: 2017-03-19T10:52:26.476Z,
+    __v: 0 },
+  { _id: 58ce62f6ffee53273e42675f,
+    name: 'hello1',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:38.709Z,
+    modify_at: 2017-03-19T10:52:38.709Z,
+    __v: 0 },
+  { _id: 58ce62fbffee53273e426760,
+    name: 'fuck',
+    desc: 'you',
+    created_at: 2017-03-19T10:52:43.947Z,
+    modify_at: 2017-03-19T10:52:43.947Z,
+    __v: 0 },
+  { _id: 58ce634cffee53273e426761,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:54:04.895Z,
+    modify_at: 2017-03-19T10:54:04.895Z,
+    __v: 0 },
+  { _id: 58ce63f95eb9d02771218bd1,
+    name: '1222',
+    desc: '2222',
+    created_at: 2017-03-19T10:56:57.195Z,
+    modify_at: 2017-03-19T10:56:57.195Z,
+    __v: 0 },
+  { _id: 58ceb97c5eb9d02771218bd3,
+    name: '分类名1',
+    desc: '描述1',
+    created_at: 2017-03-19T17:01:48.802Z,
+    modify_at: 2017-03-19T17:01:48.802Z,
+    __v: 0 },
+  { _id: 58ceb98b5eb9d02771218bd4,
+    name: '分类名2',
+    desc: '描述2',
+    created_at: 2017-03-19T17:02:03.406Z,
+    modify_at: 2017-03-19T17:02:03.406Z,
+    __v: 0 },
+  { _id: 58ceb9b35eb9d02771218bd5,
+    name: '333',
+    desc: '333',
+    created_at: 2017-03-19T17:02:43.133Z,
+    modify_at: 2017-03-19T17:02:43.133Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m34.908 ms - 2032[0m
+[0mGET /favicon.ico [32m200 [0m0.895 ms - 812[0m
+[0mPOST /service/category/add [32m200 [0m33.942 ms - 173[0m
+[0mGET /category [32m200 [0m3.078 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m2.010 ms - 927[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m3.315 ms - 121260[0m
+[0mGET /bundle/bundle.js [32m200 [0m2.875 ms - 2230326[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m0.892 ms - 812[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce628149ab0526f0f40232,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:50:41.964Z,
+    modify_at: 2017-03-19T10:50:41.964Z,
+    __v: 0 },
+  { _id: 58ce62eaffee53273e42675e,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:26.476Z,
+    modify_at: 2017-03-19T10:52:26.476Z,
+    __v: 0 },
+  { _id: 58ce62f6ffee53273e42675f,
+    name: 'hello1',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:38.709Z,
+    modify_at: 2017-03-19T10:52:38.709Z,
+    __v: 0 },
+  { _id: 58ce62fbffee53273e426760,
+    name: 'fuck',
+    desc: 'you',
+    created_at: 2017-03-19T10:52:43.947Z,
+    modify_at: 2017-03-19T10:52:43.947Z,
+    __v: 0 },
+  { _id: 58ce634cffee53273e426761,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:54:04.895Z,
+    modify_at: 2017-03-19T10:54:04.895Z,
+    __v: 0 },
+  { _id: 58ce63f95eb9d02771218bd1,
+    name: '1222',
+    desc: '2222',
+    created_at: 2017-03-19T10:56:57.195Z,
+    modify_at: 2017-03-19T10:56:57.195Z,
+    __v: 0 },
+  { _id: 58ceb97c5eb9d02771218bd3,
+    name: '分类名1',
+    desc: '描述1',
+    created_at: 2017-03-19T17:01:48.802Z,
+    modify_at: 2017-03-19T17:01:48.802Z,
+    __v: 0 },
+  { _id: 58ceb98b5eb9d02771218bd4,
+    name: '分类名2',
+    desc: '描述2',
+    created_at: 2017-03-19T17:02:03.406Z,
+    modify_at: 2017-03-19T17:02:03.406Z,
+    __v: 0 },
+  { _id: 58ceb9b35eb9d02771218bd5,
+    name: '333',
+    desc: '333',
+    created_at: 2017-03-19T17:02:43.133Z,
+    modify_at: 2017-03-19T17:02:43.133Z,
+    __v: 0 },
+  { _id: 58ceba191a1a0f356e1ceeea,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T17:04:25.386Z,
+    modify_at: 2017-03-19T17:04:25.386Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m23.527 ms - 2184[0m
+[0mGET /favicon.ico [32m200 [0m1.331 ms - 812[0m
+[0mPOST /service/category/add [32m200 [0m3.956 ms - 169[0m
+[0mGET /category [32m200 [0m0.767 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m1.190 ms - 927[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m2.074 ms - 121260[0m
+[0mGET /bundle/bundle.js [32m200 [0m1.917 ms - 2230326[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m0.643 ms - 812[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce628149ab0526f0f40232,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:50:41.964Z,
+    modify_at: 2017-03-19T10:50:41.964Z,
+    __v: 0 },
+  { _id: 58ce62eaffee53273e42675e,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:26.476Z,
+    modify_at: 2017-03-19T10:52:26.476Z,
+    __v: 0 },
+  { _id: 58ce62f6ffee53273e42675f,
+    name: 'hello1',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:38.709Z,
+    modify_at: 2017-03-19T10:52:38.709Z,
+    __v: 0 },
+  { _id: 58ce62fbffee53273e426760,
+    name: 'fuck',
+    desc: 'you',
+    created_at: 2017-03-19T10:52:43.947Z,
+    modify_at: 2017-03-19T10:52:43.947Z,
+    __v: 0 },
+  { _id: 58ce634cffee53273e426761,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:54:04.895Z,
+    modify_at: 2017-03-19T10:54:04.895Z,
+    __v: 0 },
+  { _id: 58ce63f95eb9d02771218bd1,
+    name: '1222',
+    desc: '2222',
+    created_at: 2017-03-19T10:56:57.195Z,
+    modify_at: 2017-03-19T10:56:57.195Z,
+    __v: 0 },
+  { _id: 58ceb97c5eb9d02771218bd3,
+    name: '分类名1',
+    desc: '描述1',
+    created_at: 2017-03-19T17:01:48.802Z,
+    modify_at: 2017-03-19T17:01:48.802Z,
+    __v: 0 },
+  { _id: 58ceb98b5eb9d02771218bd4,
+    name: '分类名2',
+    desc: '描述2',
+    created_at: 2017-03-19T17:02:03.406Z,
+    modify_at: 2017-03-19T17:02:03.406Z,
+    __v: 0 },
+  { _id: 58ceb9b35eb9d02771218bd5,
+    name: '333',
+    desc: '333',
+    created_at: 2017-03-19T17:02:43.133Z,
+    modify_at: 2017-03-19T17:02:43.133Z,
+    __v: 0 },
+  { _id: 58ceba191a1a0f356e1ceeea,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T17:04:25.386Z,
+    modify_at: 2017-03-19T17:04:25.386Z,
+    __v: 0 },
+  { _id: 58ceba471a1a0f356e1ceeeb,
+    name: '444',
+    desc: '444',
+    created_at: 2017-03-19T17:05:11.448Z,
+    modify_at: 2017-03-19T17:05:11.448Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m6.370 ms - 2332[0m
+[0mGET /favicon.ico [32m200 [0m0.888 ms - 812[0m
+[0mPOST /service/category/add [32m200 [0m1.606 ms - 169[0m
+mongodb connected successfully!
+[0mPOST /service/category/add [32m200 [0m43.362 ms - 169[0m
+[0mGET /category [32m200 [0m9.893 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m4.304 ms - 927[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m7.650 ms - 121260[0m
+[0mGET /bundle/bundle.js [32m200 [0m4.780 ms - 2230342[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.405 ms - 812[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce628149ab0526f0f40232,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:50:41.964Z,
+    modify_at: 2017-03-19T10:50:41.964Z,
+    __v: 0 },
+  { _id: 58ce62eaffee53273e42675e,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:26.476Z,
+    modify_at: 2017-03-19T10:52:26.476Z,
+    __v: 0 },
+  { _id: 58ce62f6ffee53273e42675f,
+    name: 'hello1',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:38.709Z,
+    modify_at: 2017-03-19T10:52:38.709Z,
+    __v: 0 },
+  { _id: 58ce62fbffee53273e426760,
+    name: 'fuck',
+    desc: 'you',
+    created_at: 2017-03-19T10:52:43.947Z,
+    modify_at: 2017-03-19T10:52:43.947Z,
+    __v: 0 },
+  { _id: 58ce634cffee53273e426761,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:54:04.895Z,
+    modify_at: 2017-03-19T10:54:04.895Z,
+    __v: 0 },
+  { _id: 58ce63f95eb9d02771218bd1,
+    name: '1222',
+    desc: '2222',
+    created_at: 2017-03-19T10:56:57.195Z,
+    modify_at: 2017-03-19T10:56:57.195Z,
+    __v: 0 },
+  { _id: 58ceb97c5eb9d02771218bd3,
+    name: '分类名1',
+    desc: '描述1',
+    created_at: 2017-03-19T17:01:48.802Z,
+    modify_at: 2017-03-19T17:01:48.802Z,
+    __v: 0 },
+  { _id: 58ceb98b5eb9d02771218bd4,
+    name: '分类名2',
+    desc: '描述2',
+    created_at: 2017-03-19T17:02:03.406Z,
+    modify_at: 2017-03-19T17:02:03.406Z,
+    __v: 0 },
+  { _id: 58ceb9b35eb9d02771218bd5,
+    name: '333',
+    desc: '333',
+    created_at: 2017-03-19T17:02:43.133Z,
+    modify_at: 2017-03-19T17:02:43.133Z,
+    __v: 0 },
+  { _id: 58ceba191a1a0f356e1ceeea,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T17:04:25.386Z,
+    modify_at: 2017-03-19T17:04:25.386Z,
+    __v: 0 },
+  { _id: 58ceba471a1a0f356e1ceeeb,
+    name: '444',
+    desc: '444',
+    created_at: 2017-03-19T17:05:11.448Z,
+    modify_at: 2017-03-19T17:05:11.448Z,
+    __v: 0 },
+  { _id: 58ceba4e1a1a0f356e1ceeec,
+    name: '555',
+    desc: '555',
+    created_at: 2017-03-19T17:05:18.018Z,
+    modify_at: 2017-03-19T17:05:18.018Z,
+    __v: 0 },
+  { _id: 58ceba5fcf9d2435927992df,
+    name: '666',
+    desc: '666',
+    created_at: 2017-03-19T17:05:35.200Z,
+    modify_at: 2017-03-19T17:05:35.200Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m43.127 ms - 2628[0m
+[0mGET /favicon.ico [32m200 [0m0.962 ms - 812[0m
+[0mPOST /service/category/add [32m200 [0m4.203 ms - 169[0m
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+[0mGET /category [32m200 [0m13.255 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m5.918 ms - 927[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m10.058 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m2.175 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m5.710 ms - 2230342[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce628149ab0526f0f40232,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:50:41.964Z,
+    modify_at: 2017-03-19T10:50:41.964Z,
+    __v: 0 },
+  { _id: 58ce62eaffee53273e42675e,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:26.476Z,
+    modify_at: 2017-03-19T10:52:26.476Z,
+    __v: 0 },
+  { _id: 58ce62f6ffee53273e42675f,
+    name: 'hello1',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:38.709Z,
+    modify_at: 2017-03-19T10:52:38.709Z,
+    __v: 0 },
+  { _id: 58ce62fbffee53273e426760,
+    name: 'fuck',
+    desc: 'you',
+    created_at: 2017-03-19T10:52:43.947Z,
+    modify_at: 2017-03-19T10:52:43.947Z,
+    __v: 0 },
+  { _id: 58ce634cffee53273e426761,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:54:04.895Z,
+    modify_at: 2017-03-19T10:54:04.895Z,
+    __v: 0 },
+  { _id: 58ce63f95eb9d02771218bd1,
+    name: '1222',
+    desc: '2222',
+    created_at: 2017-03-19T10:56:57.195Z,
+    modify_at: 2017-03-19T10:56:57.195Z,
+    __v: 0 },
+  { _id: 58ceb97c5eb9d02771218bd3,
+    name: '分类名1',
+    desc: '描述1',
+    created_at: 2017-03-19T17:01:48.802Z,
+    modify_at: 2017-03-19T17:01:48.802Z,
+    __v: 0 },
+  { _id: 58ceb98b5eb9d02771218bd4,
+    name: '分类名2',
+    desc: '描述2',
+    created_at: 2017-03-19T17:02:03.406Z,
+    modify_at: 2017-03-19T17:02:03.406Z,
+    __v: 0 },
+  { _id: 58ceb9b35eb9d02771218bd5,
+    name: '333',
+    desc: '333',
+    created_at: 2017-03-19T17:02:43.133Z,
+    modify_at: 2017-03-19T17:02:43.133Z,
+    __v: 0 },
+  { _id: 58ceba191a1a0f356e1ceeea,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T17:04:25.386Z,
+    modify_at: 2017-03-19T17:04:25.386Z,
+    __v: 0 },
+  { _id: 58ceba471a1a0f356e1ceeeb,
+    name: '444',
+    desc: '444',
+    created_at: 2017-03-19T17:05:11.448Z,
+    modify_at: 2017-03-19T17:05:11.448Z,
+    __v: 0 },
+  { _id: 58ceba4e1a1a0f356e1ceeec,
+    name: '555',
+    desc: '555',
+    created_at: 2017-03-19T17:05:18.018Z,
+    modify_at: 2017-03-19T17:05:18.018Z,
+    __v: 0 },
+  { _id: 58ceba5fcf9d2435927992df,
+    name: '666',
+    desc: '666',
+    created_at: 2017-03-19T17:05:35.200Z,
+    modify_at: 2017-03-19T17:05:35.200Z,
+    __v: 0 },
+  { _id: 58ceba66cf9d2435927992e0,
+    name: '777',
+    desc: '777',
+    created_at: 2017-03-19T17:05:42.775Z,
+    modify_at: 2017-03-19T17:05:42.775Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m45.009 ms - 2776[0m
+[0mGET /favicon.ico [32m200 [0m0.851 ms - 812[0m
+[0mPOST /service/category/add [32m200 [0m32.531 ms - 169[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m2.256 ms - -[0m
+[0mGET /css/app.css [36m304 [0m2.553 ms - -[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m2.484 ms - 812[0m
+[0mPOST /service/category/add [32m200 [0m5.454 ms - 169[0m
+mongodb connected successfully!
+[0mGET /category [32m200 [0m14.046 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m5.038 ms - 969[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m8.914 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m2.771 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m5.765 ms - 2230342[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce628149ab0526f0f40232,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:50:41.964Z,
+    modify_at: 2017-03-19T10:50:41.964Z,
+    __v: 0 },
+  { _id: 58ce62eaffee53273e42675e,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:26.476Z,
+    modify_at: 2017-03-19T10:52:26.476Z,
+    __v: 0 },
+  { _id: 58ce62f6ffee53273e42675f,
+    name: 'hello1',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:38.709Z,
+    modify_at: 2017-03-19T10:52:38.709Z,
+    __v: 0 },
+  { _id: 58ce62fbffee53273e426760,
+    name: 'fuck',
+    desc: 'you',
+    created_at: 2017-03-19T10:52:43.947Z,
+    modify_at: 2017-03-19T10:52:43.947Z,
+    __v: 0 },
+  { _id: 58ce634cffee53273e426761,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:54:04.895Z,
+    modify_at: 2017-03-19T10:54:04.895Z,
+    __v: 0 },
+  { _id: 58ce63f95eb9d02771218bd1,
+    name: '1222',
+    desc: '2222',
+    created_at: 2017-03-19T10:56:57.195Z,
+    modify_at: 2017-03-19T10:56:57.195Z,
+    __v: 0 },
+  { _id: 58ceb97c5eb9d02771218bd3,
+    name: '分类名1',
+    desc: '描述1',
+    created_at: 2017-03-19T17:01:48.802Z,
+    modify_at: 2017-03-19T17:01:48.802Z,
+    __v: 0 },
+  { _id: 58ceb98b5eb9d02771218bd4,
+    name: '分类名2',
+    desc: '描述2',
+    created_at: 2017-03-19T17:02:03.406Z,
+    modify_at: 2017-03-19T17:02:03.406Z,
+    __v: 0 },
+  { _id: 58ceb9b35eb9d02771218bd5,
+    name: '333',
+    desc: '333',
+    created_at: 2017-03-19T17:02:43.133Z,
+    modify_at: 2017-03-19T17:02:43.133Z,
+    __v: 0 },
+  { _id: 58ceba191a1a0f356e1ceeea,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T17:04:25.386Z,
+    modify_at: 2017-03-19T17:04:25.386Z,
+    __v: 0 },
+  { _id: 58ceba471a1a0f356e1ceeeb,
+    name: '444',
+    desc: '444',
+    created_at: 2017-03-19T17:05:11.448Z,
+    modify_at: 2017-03-19T17:05:11.448Z,
+    __v: 0 },
+  { _id: 58ceba4e1a1a0f356e1ceeec,
+    name: '555',
+    desc: '555',
+    created_at: 2017-03-19T17:05:18.018Z,
+    modify_at: 2017-03-19T17:05:18.018Z,
+    __v: 0 },
+  { _id: 58ceba5fcf9d2435927992df,
+    name: '666',
+    desc: '666',
+    created_at: 2017-03-19T17:05:35.200Z,
+    modify_at: 2017-03-19T17:05:35.200Z,
+    __v: 0 },
+  { _id: 58ceba66cf9d2435927992e0,
+    name: '777',
+    desc: '777',
+    created_at: 2017-03-19T17:05:42.775Z,
+    modify_at: 2017-03-19T17:05:42.775Z,
+    __v: 0 },
+  { _id: 58cebab223b4a735a9440afe,
+    name: '888',
+    desc: '888',
+    created_at: 2017-03-19T17:06:58.469Z,
+    modify_at: 2017-03-19T17:06:58.469Z,
+    __v: 0 },
+  { _id: 58cebad623b4a735a9440aff,
+    name: '999',
+    desc: '999',
+    created_at: 2017-03-19T17:07:34.000Z,
+    modify_at: 2017-03-19T17:07:34.000Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m42.580 ms - 3072[0m
+[0mGET /favicon.ico [32m200 [0m1.129 ms - 812[0m
+[0mPOST /service/category/add [32m200 [0m34.094 ms - 173[0m
+mongodb connected successfully!
+[0mGET /category [32m200 [0m13.844 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m6.217 ms - 969[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m11.085 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m2.181 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m6.633 ms - 2230342[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce628149ab0526f0f40232,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:50:41.964Z,
+    modify_at: 2017-03-19T10:50:41.964Z,
+    __v: 0 },
+  { _id: 58ce62eaffee53273e42675e,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:26.476Z,
+    modify_at: 2017-03-19T10:52:26.476Z,
+    __v: 0 },
+  { _id: 58ce62f6ffee53273e42675f,
+    name: 'hello1',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:38.709Z,
+    modify_at: 2017-03-19T10:52:38.709Z,
+    __v: 0 },
+  { _id: 58ce62fbffee53273e426760,
+    name: 'fuck',
+    desc: 'you',
+    created_at: 2017-03-19T10:52:43.947Z,
+    modify_at: 2017-03-19T10:52:43.947Z,
+    __v: 0 },
+  { _id: 58ce634cffee53273e426761,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:54:04.895Z,
+    modify_at: 2017-03-19T10:54:04.895Z,
+    __v: 0 },
+  { _id: 58ce63f95eb9d02771218bd1,
+    name: '1222',
+    desc: '2222',
+    created_at: 2017-03-19T10:56:57.195Z,
+    modify_at: 2017-03-19T10:56:57.195Z,
+    __v: 0 },
+  { _id: 58ceb97c5eb9d02771218bd3,
+    name: '分类名1',
+    desc: '描述1',
+    created_at: 2017-03-19T17:01:48.802Z,
+    modify_at: 2017-03-19T17:01:48.802Z,
+    __v: 0 },
+  { _id: 58ceb98b5eb9d02771218bd4,
+    name: '分类名2',
+    desc: '描述2',
+    created_at: 2017-03-19T17:02:03.406Z,
+    modify_at: 2017-03-19T17:02:03.406Z,
+    __v: 0 },
+  { _id: 58ceb9b35eb9d02771218bd5,
+    name: '333',
+    desc: '333',
+    created_at: 2017-03-19T17:02:43.133Z,
+    modify_at: 2017-03-19T17:02:43.133Z,
+    __v: 0 },
+  { _id: 58ceba191a1a0f356e1ceeea,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T17:04:25.386Z,
+    modify_at: 2017-03-19T17:04:25.386Z,
+    __v: 0 },
+  { _id: 58ceba471a1a0f356e1ceeeb,
+    name: '444',
+    desc: '444',
+    created_at: 2017-03-19T17:05:11.448Z,
+    modify_at: 2017-03-19T17:05:11.448Z,
+    __v: 0 },
+  { _id: 58ceba4e1a1a0f356e1ceeec,
+    name: '555',
+    desc: '555',
+    created_at: 2017-03-19T17:05:18.018Z,
+    modify_at: 2017-03-19T17:05:18.018Z,
+    __v: 0 },
+  { _id: 58ceba5fcf9d2435927992df,
+    name: '666',
+    desc: '666',
+    created_at: 2017-03-19T17:05:35.200Z,
+    modify_at: 2017-03-19T17:05:35.200Z,
+    __v: 0 },
+  { _id: 58ceba66cf9d2435927992e0,
+    name: '777',
+    desc: '777',
+    created_at: 2017-03-19T17:05:42.775Z,
+    modify_at: 2017-03-19T17:05:42.775Z,
+    __v: 0 },
+  { _id: 58cebab223b4a735a9440afe,
+    name: '888',
+    desc: '888',
+    created_at: 2017-03-19T17:06:58.469Z,
+    modify_at: 2017-03-19T17:06:58.469Z,
+    __v: 0 },
+  { _id: 58cebad623b4a735a9440aff,
+    name: '999',
+    desc: '999',
+    created_at: 2017-03-19T17:07:34.000Z,
+    modify_at: 2017-03-19T17:07:34.000Z,
+    __v: 0 },
+  { _id: 58cebb2a41dbc735be2d04eb,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T17:08:58.955Z,
+    modify_at: 2017-03-19T17:08:58.955Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m43.144 ms - 3224[0m
+[0mGET /favicon.ico [32m200 [0m0.768 ms - 812[0m
+[0mPOST /service/category/add [32m200 [0m36.726 ms - 168[0m
+mongodb connected successfully!
+mongodb connected successfully!
+[0mGET /category [32m200 [0m13.847 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m4.481 ms - 988[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m7.712 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m2.057 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m4.254 ms - 2230342[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 },
+  { _id: 58ce628149ab0526f0f40232,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:50:41.964Z,
+    modify_at: 2017-03-19T10:50:41.964Z,
+    __v: 0 },
+  { _id: 58ce62eaffee53273e42675e,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:26.476Z,
+    modify_at: 2017-03-19T10:52:26.476Z,
+    __v: 0 },
+  { _id: 58ce62f6ffee53273e42675f,
+    name: 'hello1',
+    desc: 'world',
+    created_at: 2017-03-19T10:52:38.709Z,
+    modify_at: 2017-03-19T10:52:38.709Z,
+    __v: 0 },
+  { _id: 58ce62fbffee53273e426760,
+    name: 'fuck',
+    desc: 'you',
+    created_at: 2017-03-19T10:52:43.947Z,
+    modify_at: 2017-03-19T10:52:43.947Z,
+    __v: 0 },
+  { _id: 58ce634cffee53273e426761,
+    name: '1',
+    desc: '2',
+    created_at: 2017-03-19T10:54:04.895Z,
+    modify_at: 2017-03-19T10:54:04.895Z,
+    __v: 0 },
+  { _id: 58ce63f95eb9d02771218bd1,
+    name: '1222',
+    desc: '2222',
+    created_at: 2017-03-19T10:56:57.195Z,
+    modify_at: 2017-03-19T10:56:57.195Z,
+    __v: 0 },
+  { _id: 58ceb97c5eb9d02771218bd3,
+    name: '分类名1',
+    desc: '描述1',
+    created_at: 2017-03-19T17:01:48.802Z,
+    modify_at: 2017-03-19T17:01:48.802Z,
+    __v: 0 },
+  { _id: 58ceb98b5eb9d02771218bd4,
+    name: '分类名2',
+    desc: '描述2',
+    created_at: 2017-03-19T17:02:03.406Z,
+    modify_at: 2017-03-19T17:02:03.406Z,
+    __v: 0 },
+  { _id: 58ceb9b35eb9d02771218bd5,
+    name: '333',
+    desc: '333',
+    created_at: 2017-03-19T17:02:43.133Z,
+    modify_at: 2017-03-19T17:02:43.133Z,
+    __v: 0 },
+  { _id: 58ceba191a1a0f356e1ceeea,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T17:04:25.386Z,
+    modify_at: 2017-03-19T17:04:25.386Z,
+    __v: 0 },
+  { _id: 58ceba471a1a0f356e1ceeeb,
+    name: '444',
+    desc: '444',
+    created_at: 2017-03-19T17:05:11.448Z,
+    modify_at: 2017-03-19T17:05:11.448Z,
+    __v: 0 },
+  { _id: 58ceba4e1a1a0f356e1ceeec,
+    name: '555',
+    desc: '555',
+    created_at: 2017-03-19T17:05:18.018Z,
+    modify_at: 2017-03-19T17:05:18.018Z,
+    __v: 0 },
+  { _id: 58ceba5fcf9d2435927992df,
+    name: '666',
+    desc: '666',
+    created_at: 2017-03-19T17:05:35.200Z,
+    modify_at: 2017-03-19T17:05:35.200Z,
+    __v: 0 },
+  { _id: 58ceba66cf9d2435927992e0,
+    name: '777',
+    desc: '777',
+    created_at: 2017-03-19T17:05:42.775Z,
+    modify_at: 2017-03-19T17:05:42.775Z,
+    __v: 0 },
+  { _id: 58cebab223b4a735a9440afe,
+    name: '888',
+    desc: '888',
+    created_at: 2017-03-19T17:06:58.469Z,
+    modify_at: 2017-03-19T17:06:58.469Z,
+    __v: 0 },
+  { _id: 58cebad623b4a735a9440aff,
+    name: '999',
+    desc: '999',
+    created_at: 2017-03-19T17:07:34.000Z,
+    modify_at: 2017-03-19T17:07:34.000Z,
+    __v: 0 },
+  { _id: 58cebb2a41dbc735be2d04eb,
+    name: 'hello',
+    desc: 'world',
+    created_at: 2017-03-19T17:08:58.955Z,
+    modify_at: 2017-03-19T17:08:58.955Z,
+    __v: 0 },
+  { _id: 58cebb4aa792d335c88f2614,
+    name: 'ddd',
+    desc: 'dd',
+    created_at: 2017-03-19T17:09:30.754Z,
+    modify_at: 2017-03-19T17:09:30.754Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m40.775 ms - 3371[0m
+[0mGET /favicon.ico [32m200 [0m0.889 ms - 812[0m
+[0mPOST /service/category/add [32m200 [0m34.072 ms - 171[0m
+[0mPOST /service/category/del [32m200 [0m4.291 ms - 14[0m
+[0mPOST /service/category/del [32m200 [0m1.405 ms - 14[0m
+[0mPOST /service/category/del [32m200 [0m1.074 ms - 14[0m
+[0mPOST /service/category/del [32m200 [0m1.514 ms - 14[0m
+[0mPOST /service/category/del [32m200 [0m1.989 ms - 14[0m
+[0mPOST /service/category/del [32m200 [0m1.299 ms - 14[0m
+[0mPOST /service/category/del [32m200 [0m1.265 ms - 14[0m
+[0mPOST /service/category/del [32m200 [0m0.905 ms - 14[0m
+[0mPOST /service/category/del [32m200 [0m2.785 ms - 14[0m
+[0mPOST /service/category/del [32m200 [0m3.415 ms - 14[0m
+[0mPOST /service/category/del [32m200 [0m1.014 ms - 14[0m
+[0mPOST /service/category/del [32m200 [0m5.764 ms - 14[0m
+[0mPOST /service/category/del [32m200 [0m1.156 ms - 14[0m
+[0mPOST /service/category/del [32m200 [0m0.912 ms - 14[0m
+[0mPOST /service/category/del [32m200 [0m1.361 ms - 14[0m
+[0mPOST /service/category/del [32m200 [0m1.377 ms - 14[0m
+[0mPOST /service/category/del [32m200 [0m1.144 ms - 14[0m
+[0mPOST /service/category/del [32m200 [0m0.933 ms - 14[0m
+[0mPOST /service/category/del [32m200 [0m3.313 ms - 14[0m
+[0mGET /category [32m200 [0m3.152 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m5.559 ms - 988[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m5.942 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m0.774 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m5.533 ms - 2230342[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m4.293 ms - 673[0m
+[0mGET /favicon.ico [32m200 [0m0.554 ms - 812[0m
+[0mGET /add [32m200 [0m0.825 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m1.109 ms - 988[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m1.931 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m0.733 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m1.370 ms - 2230342[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m3.713 ms - 673[0m
+[0mGET /favicon.ico [32m200 [0m0.592 ms - 812[0m
+[0mGET /search [32m200 [0m0.514 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m2.200 ms - 988[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m2.441 ms - 121260[0m
+[0mGET /bundle/bundle.js [32m200 [0m1.619 ms - 2230342[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m0.547 ms - 812[0m
+[0mGET /service/code/query? [32m200 [0m5.138 ms - 228[0m
+[0mGET /favicon.ico [32m200 [0m4.578 ms - 812[0m
+[0mGET /add [32m200 [0m0.568 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m1.949 ms - 988[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m1.268 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m0.890 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m2.731 ms - 2230342[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m3.275 ms - 673[0m
+[0mGET /favicon.ico [32m200 [0m0.545 ms - 812[0m
+[0mGET /search [32m200 [0m0.918 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m1.066 ms - 988[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m1.218 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.578 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m1.045 ms - 2230342[0m
+[0mGET /service/code/query? [32m200 [0m3.274 ms - 228[0m
+[0mGET /favicon.ico [32m200 [0m1.048 ms - 812[0m
+[0mGET /category [32m200 [0m2.148 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m1.252 ms - 988[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m1.735 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.515 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m1.936 ms - 2230342[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m3.822 ms - 673[0m
+[0mGET /favicon.ico [32m200 [0m1.904 ms - 812[0m
+[0mGET /add [36m304 [0m0.929 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.352 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.082 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.094 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.130 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.549 ms - -[0m
+[0mGET /search [36m304 [0m0.512 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.859 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.864 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.912 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m2.285 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.522 ms - -[0m
+[0mGET /add [36m304 [0m0.520 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.277 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.370 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.495 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.031 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.590 ms - -[0m
+[0mGET /category [36m304 [0m0.536 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.729 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.778 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.533 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.800 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.200 ms - -[0m
+[0mGET /search [36m304 [0m1.633 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.581 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.546 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.593 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m2.492 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.649 ms - -[0m
+[0mGET /category [36m304 [0m0.615 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.582 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.500 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.546 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.961 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.735 ms - -[0m
+[0mGET /add [36m304 [0m0.505 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.482 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.146 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.119 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m3.953 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.499 ms - -[0m
+[0mGET /category [36m304 [0m0.955 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.497 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.511 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.550 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.096 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.805 ms - -[0m
+[0mGET /add [36m304 [0m0.498 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.702 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.724 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.737 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.847 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.530 ms - -[0m
+[0mGET /search [36m304 [0m0.497 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.211 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.137 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.734 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m2.153 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.731 ms - -[0m
+[0mGET /add [36m304 [0m0.528 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m7.048 ms - -[0m
+[0mGET /css/app.css [36m304 [0m3.267 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m4.105 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.205 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.715 ms - -[0m
+[0mGET /add [36m304 [0m0.549 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.629 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.554 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.684 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.410 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.503 ms - -[0m
+[0mGET /category [36m304 [0m0.543 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.476 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.438 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.499 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.909 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.516 ms - -[0m
+[0mGET /add [36m304 [0m0.536 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.454 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.435 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.466 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m3.225 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.516 ms - -[0m
+[0mGET /search [36m304 [0m0.702 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.554 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.518 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.629 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m3.550 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.594 ms - -[0m
+[0mGET /add [36m304 [0m0.523 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.582 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.640 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.661 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m1.968 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.567 ms - -[0m
+[0mGET /search [36m304 [0m0.509 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.563 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.627 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.701 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m2.122 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.637 ms - -[0m
+[0mGET /add [36m304 [0m0.540 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.614 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.580 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.845 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m1.837 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.526 ms - -[0m
+[0mGET /search [36m304 [0m0.501 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.468 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.461 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.521 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m4.076 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.746 ms - -[0m
+[0mGET /add [36m304 [0m0.704 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.438 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.421 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.561 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m3.112 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.575 ms - -[0m
+[0mPOST /service/code/add [32m200 [0m4.600 ms - 172[0m
+[0mGET /search [36m304 [0m0.533 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.452 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.434 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.423 ms - -[0m
+[0mGET /service/code/query? [32m200 [0m2.231 ms - 420[0m
+[0mGET /favicon.ico [36m304 [0m0.538 ms - -[0m
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+[0mGET /css/bootstrap.min.css [36m304 [0m7.092 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.032 ms - -[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m11.374 ms - 812[0m
+[0mGET /search [32m200 [0m1.550 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m5.813 ms - 988[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m8.357 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.703 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m4.576 ms - 2231164[0m
+[0mGET /service/code/query? [32m200 [0m23.092 ms - 420[0m
+[0mGET /favicon.ico [32m200 [0m0.677 ms - 812[0m
+mongodb connected successfully!
+[0mGET /search [32m200 [0m15.509 ms - 812[0m
+mongodb connected successfully!
+[0mGET /search [32m200 [0m11.115 ms - 812[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m5.598 ms - 121260[0m
+[0mGET /css/app.css [32m200 [0m5.739 ms - 988[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m2.528 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m4.878 ms - 2231268[0m
+[0mGET /service/code/query? [32m200 [0m30.143 ms - 420[0m
+[0mGET /favicon.ico [32m200 [0m0.735 ms - 812[0m
+[0mGET /search [32m200 [0m1.998 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m1.881 ms - 988[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m2.341 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.175 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m1.113 ms - 2231268[0m
+[0mGET /service/code/query? [32m200 [0m9.835 ms - 420[0m
+[0mGET /favicon.ico [32m200 [0m0.656 ms - 812[0m
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+[0mGET / [32m200 [0m14.827 ms - 812[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m3.014 ms - -[0m
+[0mGET /css/app.css [36m304 [0m3.224 ms - -[0m
+[0mGET /bundle/bundle.js [32m200 [0m3.450 ms - 2231268[0m
+[0mGET /favicon.ico [36m304 [0m2.470 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.543 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.643 ms - -[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.426 ms - 812[0m
+[0mGET /search [32m200 [0m0.698 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m1.713 ms - 988[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m2.343 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m0.734 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m1.207 ms - 2231268[0m
+[0mGET /favicon.ico [32m200 [0m0.661 ms - 812[0m
+[0mGET /add [32m200 [0m0.708 ms - 812[0m
+[0mGET /service/code/query? [0m- [0m- ms - -[0m
+[0mGET /css/app.css [32m200 [0m1.928 ms - 988[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m1.572 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m3.066 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m1.972 ms - 2231268[0m
+[0mGET /favicon.ico [32m200 [0m0.715 ms - 812[0m
+mongodb connected successfully!
+[0mGET /add [32m200 [0m17.074 ms - 812[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m4.593 ms - 121260[0m
+[0mGET /css/app.css [32m200 [0m5.969 ms - 988[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m2.641 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m6.932 ms - 2231268[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m40.637 ms - 673[0m
+[0mGET /favicon.ico [32m200 [0m0.752 ms - 812[0m
+[0mGET /search [32m200 [0m6.265 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m2.113 ms - 988[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m2.324 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.727 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m2.465 ms - 2231268[0m
+[0mGET /service/code/query? [32m200 [0m8.485 ms - 420[0m
+[0mGET /favicon.ico [32m200 [0m0.648 ms - 812[0m
+[0mGET /add [32m200 [0m1.738 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m2.187 ms - 988[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m2.275 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m0.849 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m3.044 ms - 2231268[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m2.932 ms - 673[0m
+[0mGET /favicon.ico [32m200 [0m0.625 ms - 812[0m
+[0mGET /category [32m200 [0m0.582 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m0.967 ms - 988[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m1.208 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m0.757 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m0.992 ms - 2231268[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m7.396 ms - 673[0m
+[0mGET /favicon.ico [32m200 [0m0.542 ms - 812[0m
+[0mGET /add [32m200 [0m2.053 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m1.910 ms - 988[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m1.817 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.665 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m2.369 ms - 2231268[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m5.428 ms - 673[0m
+[0mGET /favicon.ico [32m200 [0m1.025 ms - 812[0m
+[0mPOST /service/code/add [32m200 [0m38.643 ms - 169[0m
+[0mPOST /service/code/add [32m200 [0m4.999 ms - 166[0m
+[0mGET /add [36m304 [0m2.759 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.047 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.319 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.418 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m3.162 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.682 ms - -[0m
+[0mGET /search [36m304 [0m0.863 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.599 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.590 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.550 ms - -[0m
+[0mGET /service/code/query? [32m200 [0m3.567 ms - 795[0m
+[0mGET /favicon.ico [36m304 [0m0.574 ms - -[0m
+[0mGET /category [36m304 [0m0.612 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.270 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.765 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.962 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.815 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.895 ms - -[0m
+[0mGET /search [36m304 [0m0.539 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.111 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.697 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.789 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m3.407 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.564 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m4.032 ms - -[0m
+[0mGET /service/code/query?code=200400 [32m200 [0m3.876 ms - 44[0m
+[0mGET /service/code/query?code=200600 [32m200 [0m2.938 ms - 235[0m
+[0mGET /add [36m304 [0m0.568 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.499 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.183 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.665 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.187 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.560 ms - -[0m
+[0mGET /search [36m304 [0m0.538 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.528 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.528 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.632 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m5.241 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.647 ms - -[0m
+[0mGET /add [36m304 [0m0.529 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.606 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.562 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.535 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.291 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.721 ms - -[0m
+[0mGET /category [36m304 [0m0.554 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.539 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.507 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.494 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.058 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.571 ms - -[0m
+[0mGET /search [36m304 [0m0.529 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m2.836 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.755 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.266 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m3.785 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.436 ms - -[0m
+[0mGET /add [36m304 [0m0.535 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.389 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.133 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.606 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.772 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.969 ms - -[0m
+[0mGET /category [36m304 [0m0.546 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.504 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.475 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.466 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m3.176 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m3.821 ms - -[0m
+[0mGET / [36m304 [0m5.411 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.615 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.611 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.681 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.698 ms - -[0m
+[0mGET /category [36m304 [0m0.527 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.668 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.917 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.981 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m5.422 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m2.788 ms - -[0m
+[0mGET /add [36m304 [0m1.288 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.581 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.550 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.510 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m4.202 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.931 ms - -[0m
+[0mGET /search [36m304 [0m0.584 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.494 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.468 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.457 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m4.387 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.826 ms - -[0m
+[0mGET /add [36m304 [0m1.325 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m11.336 ms - -[0m
+[0mGET /css/app.css [36m304 [0m3.452 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m3.859 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.500 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.440 ms - -[0m
+[0mGET /search [36m304 [0m0.735 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.734 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.856 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.978 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m6.245 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.597 ms - -[0m
+[0mGET /add [36m304 [0m0.520 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.523 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.509 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.559 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.948 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.711 ms - -[0m
+[0mGET /search [36m304 [0m0.567 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.477 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.478 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.541 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m2.142 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.919 ms - -[0m
+[0mGET /add [36m304 [0m0.665 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.515 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.252 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.498 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.170 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.545 ms - -[0m
+[0mPOST /service/code/add [32m200 [0m3.658 ms - 166[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.544 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.643 ms - -[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m0.767 ms - 812[0m
+[0mPOST /service/code/add [32m200 [0m1.613 ms - 166[0m
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+[0mGET /add [36m304 [0m16.306 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m3.012 ms - -[0m
+[0mGET /css/app.css [36m304 [0m5.822 ms - -[0m
+[0mGET /bundle/bundle.js [32m200 [0m8.809 ms - 2231339[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m36.099 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.918 ms - -[0m
+[0mGET /category [36m304 [0m0.938 ms - -[0m
+[0mGET /css/app.css [36m304 [0m2.261 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m2.144 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.528 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m3.757 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.537 ms - -[0m
+[0mGET /add [36m304 [0m0.625 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.716 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.570 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.654 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.623 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.952 ms - -[0m
+[0mGET /category [36m304 [0m2.067 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.239 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.358 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.356 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m8.822 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.287 ms - -[0m
+[0mGET /add [36m304 [0m0.748 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.498 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.880 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.938 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m5.239 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.857 ms - -[0m
+[0mGET /search [36m304 [0m0.926 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.702 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.731 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.597 ms - -[0m
+[0mGET /service/code/query? [32m200 [0m6.549 ms - 1167[0m
+[0mGET /favicon.ico [36m304 [0m0.981 ms - -[0m
+[0mGET /add [36m304 [0m0.627 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.501 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.351 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.075 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m3.340 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.590 ms - -[0m
+[0mPOST /service/code/add [32m200 [0m37.674 ms - 166[0m
+[0mGET /search [36m304 [0m1.350 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.760 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.768 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.665 ms - -[0m
+[0mGET /service/code/query? [32m200 [0m3.362 ms - 1353[0m
+[0mGET /favicon.ico [36m304 [0m2.649 ms - -[0m
+[0mGET /add [36m304 [0m0.589 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.186 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.852 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.858 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.514 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.845 ms - -[0m
+[0mGET /category [36m304 [0m0.610 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.168 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.200 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m2.871 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.007 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.983 ms - -[0m
+[0mGET /add [36m304 [0m2.141 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.185 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.188 ms - -[0m
+[0mGET /css/app.css [36m304 [0m2.333 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m3.575 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.796 ms - -[0m
+[0mGET /search [36m304 [0m0.639 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.259 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.166 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.399 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m3.591 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m2.327 ms - -[0m
+[0mGET /add [36m304 [0m0.643 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.512 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.848 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.391 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m3.026 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.984 ms - -[0m
+[0mGET /category [36m304 [0m0.772 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.774 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.867 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.854 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m3.644 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.037 ms - -[0m
+[0mGET /add [36m304 [0m1.017 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.294 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.237 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.598 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.245 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.610 ms - -[0m
+[0mGET /search [36m304 [0m1.489 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.422 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.747 ms - -[0m
+[0mGET /css/app.css [36m304 [0m0.731 ms - -[0m
+[0mGET /service/code/query? [36m304 [0m5.652 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.622 ms - -[0m
+[0mGET /add [36m304 [0m0.719 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.595 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.172 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.231 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m2.335 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.853 ms - -[0m
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+[0mGET /css/app.css [36m304 [0m9.869 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m8.956 ms - -[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m15.841 ms - 812[0m
+[0mGET /add [32m200 [0m2.193 ms - 812[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m5.187 ms - 121260[0m
+[0mGET /css/app.css [32m200 [0m5.396 ms - 988[0m
+[0mGET /bundle/bundle.js [32m200 [0m4.626 ms - 2231629[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.368 ms - 812[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m37.314 ms - 673[0m
+[0mGET /favicon.ico [32m200 [0m1.874 ms - 812[0m
+[0mPOST /service/code/add [32m200 [0m43.578 ms - 159[0m
+mongodb connected successfully!
+[0mGET /add [32m200 [0m17.499 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m6.359 ms - 988[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m11.456 ms - 121260[0m
+[0mGET /bundle/bundle.js [32m200 [0m10.873 ms - 2231754[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m41.004 ms - 673[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m4.749 ms - 812[0m
+[0mGET /favicon.ico [32m200 [0m0.963 ms - 812[0m
+[0mPOST /service/code/add [32m200 [0m36.878 ms - 158[0m
+[0mPOST /service/code/add [32m200 [0m4.070 ms - 158[0m
+[0mGET /add [36m304 [0m5.038 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m2.935 ms - -[0m
+[0mGET /css/app.css [36m304 [0m3.287 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m3.461 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m8.473 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m1.046 ms - 812[0m
+[0mPOST /service/code/add [32m200 [0m7.359 ms - 159[0m
+mongodb connected successfully!
+mongodb connected successfully!
+[0mGET /add [36m304 [0m13.595 ms - -[0m
+[0mGET /css/app.css [36m304 [0m4.422 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m5.221 ms - -[0m
+[0mGET /bundle/bundle.js [32m200 [0m8.556 ms - 2231698[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m30.647 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m2.973 ms - 812[0m
+[0mPOST /service/code/add [32m200 [0m42.594 ms - 159[0m
+[0mPOST /service/code/add [32m200 [0m5.810 ms - 159[0m
+[0mPOST /service/code/add [32m200 [0m2.827 ms - 159[0m
+[0mPOST /service/code/add [32m200 [0m2.528 ms - 159[0m
+[0mPOST /service/code/add [32m200 [0m3.311 ms - 159[0m
+[0mGET /add [36m304 [0m3.769 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.957 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m0.999 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.084 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m8.446 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m0.818 ms - 812[0m
+mongodb connected successfully!
+[0mGET /css/bootstrap.min.css [36m304 [0m7.204 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.756 ms - -[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m10.893 ms - 812[0m
+[0mGET /add [32m200 [0m2.145 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m5.522 ms - 988[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m8.731 ms - 121260[0m
+[0mGET /bundle/bundle.js [32m200 [0m6.194 ms - 2231700[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m2.356 ms - 812[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m36.311 ms - 673[0m
+[0mGET /favicon.ico [32m200 [0m2.013 ms - 812[0m
+[0mPOST /service/code/add [32m200 [0m42.603 ms - 159[0m
+[0mPOST /service/code/add [32m200 [0m6.155 ms - 159[0m
+[0mGET /add [36m304 [0m1.786 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.802 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.278 ms - -[0m
+[0mGET /bundle/bundle.js [36m304 [0m1.377 ms - -[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m5.782 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m1.432 ms - 812[0m
+mongodb connected successfully!
+mongodb connected successfully!
+[0mGET /add [32m200 [0m11.671 ms - 812[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m3.671 ms - -[0m
+[0mGET /css/app.css [36m304 [0m4.034 ms - -[0m
+[0mGET /bundle/bundle.js [32m200 [0m7.593 ms - 2231698[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m38.486 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m1.762 ms - 812[0m
+[0mPOST /service/code/add [32m200 [0m41.369 ms - 156[0m
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+[0mGET /add [36m304 [0m17.114 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m3.672 ms - -[0m
+[0mGET /css/app.css [36m304 [0m3.432 ms - -[0m
+[0mGET /bundle/bundle.js [32m200 [0m8.384 ms - 2231629[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [36m304 [0m34.173 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m3.315 ms - 812[0m
+[0mPOST /service/code/add [32m200 [0m51.605 ms - 159[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m2.823 ms - -[0m
+[0mGET /css/app.css [36m304 [0m1.684 ms - -[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.441 ms - 812[0m
+mongodb connected successfully!
+[0mGET /add [32m200 [0m17.756 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m10.488 ms - 988[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m16.014 ms - 121260[0m
+[0mGET /bundle/bundle.js [32m200 [0m6.976 ms - 2231631[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m2.210 ms - 812[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m31.945 ms - 673[0m
+[0mGET /favicon.ico [32m200 [0m1.592 ms - 812[0m
+[0mPOST /service/code/add [32m200 [0m46.826 ms - 157[0m
+mongodb connected successfully!
+[0mGET /add [32m200 [0m17.318 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m8.256 ms - 1053[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m18.118 ms - 121260[0m
+[0mGET /bundle/bundle.js [32m200 [0m17.714 ms - 2231631[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m4.844 ms - 812[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m35.754 ms - 673[0m
+[0mGET /favicon.ico [32m200 [0m1.389 ms - 812[0m
+[0mPOST /service/code/add [32m200 [0m42.972 ms - 159[0m
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+[0mGET /add [32m200 [0m20.622 ms - 812[0m
+[0mGET /add [32m200 [0m3.968 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m4.990 ms - 1053[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m8.173 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m1.485 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m5.313 ms - 2231762[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m34.405 ms - 673[0m
+[0mGET /favicon.ico [32m200 [0m1.045 ms - 812[0m
+[0mPOST /service/code/add [32m200 [0m34.385 ms - 159[0m
+[0mPOST /service/code/add [32m200 [0m4.687 ms - 159[0m
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+mongodb connected successfully!
+[0mGET /add [32m200 [0m15.797 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m7.459 ms - 1053[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m12.297 ms - 121260[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m3.291 ms - 812[0m
+[0mGET /bundle/bundle.js [32m200 [0m7.317 ms - 2231762[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m34.057 ms - 673[0m
+[0mGET /favicon.ico [32m200 [0m1.106 ms - 812[0m
+[0mPOST /service/code/add [32m200 [0m53.900 ms - 159[0m
+mongodb connected successfully!
+[0mGET /add [32m200 [0m15.156 ms - 812[0m
+[0mGET /css/app.css [32m200 [0m11.035 ms - 1053[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m16.643 ms - 121260[0m
+[0mGET /bundle/bundle.js [32m200 [0m11.782 ms - 2231762[0m
+[0mGET /css/bootstrap.min.css.map [32m200 [0m2.550 ms - 812[0m
+[ { _id: 5865024ff8d1ae5824f444ff,
+    name: '交易模块',
+    desc: 'asdfasda',
+    created_at: 2016-12-29T12:32:15.066Z,
+    modify_at: 2016-12-30T06:51:42.251Z,
+    __v: 0 },
+  { _id: 5866043e3762b96fa95ef679,
+    name: '行情模块',
+    desc: '',
+    created_at: 2016-12-30T06:52:46.436Z,
+    modify_at: 2016-12-30T06:52:46.436Z,
+    __v: 0 },
+  { _id: 58660e1f814f39710efcde79,
+    name: '公共模块',
+    desc: '',
+    created_at: 2016-12-30T07:34:55.973Z,
+    modify_at: 2016-12-30T07:34:55.973Z,
+    __v: 0 },
+  { _id: 58663e97cc310d7308ebce41,
+    name: 'spp_cw_session_svr',
+    desc: '',
+    created_at: 2016-12-30T11:01:43.452Z,
+    modify_at: 2016-12-30T11:01:43.452Z,
+    __v: 0 } ]
+[0mGET /service/category/query? [32m200 [0m41.749 ms - 673[0m
+[0mGET /favicon.ico [32m200 [0m1.079 ms - 812[0m
+[0mPOST /service/code/add [32m200 [0m38.811 ms - 159[0m
+mongodb connected successfully!

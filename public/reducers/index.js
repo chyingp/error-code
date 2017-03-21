@@ -18,7 +18,8 @@ const errorCodes = (state = [], action) => {
 
 let initialState = {
 	status: '',
-	errMsg: ''
+	ret_code: '',
+	ret_msg: ''
 }
 
 const errorCode = (state = initialState, action) => {
@@ -38,7 +39,9 @@ const errorCode = (state = initialState, action) => {
 		case 'ADD_ERROR_CODE_ERROR':
 			return {
 				...state,
-				status: 'error'
+				status: 'error',
+				ret_code: action.payload.ret_code,
+				ret_msg: action.payload.ret_msg
 			};	
 		default:
 			return state;	

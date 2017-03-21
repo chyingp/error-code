@@ -1,9 +1,8 @@
-import { createAction } from 'redux-actions';
 import 'whatwg-fetch'
 import { stringify } from 'querystring'
 
-export let fetchedErrorCode = (data) => ({
-	type: 'FETCHED_ERROR_CODE',
+export let removeErrorCode = (data) => ({
+	type: 'REMOVE_ERROR_CODE',
 	payload: data
 })
 
@@ -50,7 +49,7 @@ export let addErrorCode =(options) => (dispatch) => {
 		if(data.ret_code === '0') {
 			dispatch( addErrorCodeSuccess(data.data) )
 		}else {
-			dispatch( addErrorCodeError(data) )
-		}	
+			dispatch( addErrorCodeError(data.data) )
+		}		
 	});
 }

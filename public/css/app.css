@@ -4,6 +4,9 @@
 .pdr{ padding-right: 15px; }
 .pdl{ padding-left: 15px; }
 
+/* alert */
+.alert { padding-top: 10px; padding-bottom: 10px; }
+
 .show-grid{margin-bottom: 20px;}
 
 /* 搜索 */

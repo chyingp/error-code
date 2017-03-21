@@ -11,7 +11,9 @@ import {
 	Panel,
 	Alert,
 	DropdownButton,
-	MenuItem
+	MenuItem,
+	Collapse,
+	Well
 } from 'react-bootstrap'
 
 class AddErrorCode extends React.Component {
@@ -45,7 +47,7 @@ class AddErrorCode extends React.Component {
 					msg = '错误码添加成功'
 					break;
 				case 'error':
-					msg = '错误码添加失败'
+					msg = `${nextProps.ret_msg}（${nextProps.ret_code}）`;
 					break;
 				default:
 					// doing nothing
@@ -56,8 +58,11 @@ class AddErrorCode extends React.Component {
 				showErrMsg: true,
 				errMsg: msg
 			})
+
+			// this.tickAndHideMsg()
 		}
 
+		// 拉取分类（添加错误码的时候，需要选择分类）
 		if( nextProps.categories.status==='success' && props.categories.status!=='success' ) {
 			if( nextProps.categories.items.length ){
 				this.setState({
@@ -65,6 +70,16 @@ class AddErrorCode extends React.Component {
 				})
 			}
 		}
+	}
+
+	tickAndHideMsg () {
+		var that = this;
+		
+		setTimeout(() => {
+			if( that.props.status === 'success' && that.state.showErrMsg ) {
+				that.setState( { showErrMsg: false } )
+			}
+		}, 3000)
 	}
 
 	componentDidMount() {
@@ -127,7 +142,7 @@ class AddErrorCode extends React.Component {
 			return null;
 
 		return (
-			<Alert bsStyle={alertStyle} onDismiss={this.handleAlertDismiss}>{this.state.errMsg}</Alert>
+			<Alert bsStyle={alertStyle} onDismiss={this.handleAlertDismiss}>{this.state.errMsg}</Alert>		
 		)
 	}
 
@@ -165,8 +180,8 @@ class AddErrorCode extends React.Component {
 
 		return (
 			<div className="add-wrapper">
-				<Panel header="新增错误码">
-					{this.renderMsg()}
+				{this.renderMsg()}
+				<Panel header="新增错误码">					
 					<Form className="add-form">					
 					    <FormGroup controlId="formInlineName">
 					    	<FormControl

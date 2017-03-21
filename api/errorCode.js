@@ -4,21 +4,66 @@ var _ = require('lodash');
 
 var add = function(req, res, next){
 	
-	var opt = _.pick(req.body, ['code', 'brief_desc', 'verbose_desc', 'category_id']);
+	var opt = _.pick(req.body, [
+		'code', 
+		'brief_desc', 
+		'verbose_desc', 
+		'category_id'
+	]);
 	opt.created_at = new Date();
 
-	var errorCode = new ErrorCodeModel(opt);
+	req.checkBody('code').notEmpty('错误码不能为空').isInt('错误码为正整数');
+	req.checkBody('brief_desc').notEmpty('描述不能为空').isString('描述必须是字符串');
+	req.checkBody('category_id').isString('分类必须是字符串');  // TODO 检测错误分类是否存在
+	req.checkBody('verbose_desc').isString('详细描述必须是字符串');
 
-	errorCode.save(function(err){
-		if(err){
-			res.send(err);
-		}else{
+	req.getValidationResult()
+	   .then(function(result){
+	   		if(result.isEmpty()){
+	   			return opt;
+	   		}
+	   		
+	   		var msg = result.array().map((item) => item.msg ).join(', ');
 			res.json({
-				ret_code: 0,
-				data: opt
+				ret_code: '200100',
+				ret_msg: msg
 			});
-		}
-	});
+   			return;
+
+	   })
+	   .then(function(opt){
+			
+			var errorCode = new ErrorCodeModel(opt);
+
+			ErrorCodeModel.find({code: opt.code}, function(error, items){
+				if(items.length) {
+					res.json({
+						ret_code: '200101',
+						ret_msg: '错误码已存在'
+					});
+				}else{
+					errorCode.save(function(error){
+						if(error){
+							res.json({
+								ret_code: '200202',
+								ret_msg: error.message
+							});
+						}else{
+							res.json({
+								ret_code: '0',
+								data: opt
+							});
+						}
+					});
+				}
+			});
+	   })
+	   .catch(function(error){
+			res.json({
+				ret_code: '200101',
+				ret_msg: error.message
+			});
+	   });
 };
 
 var del = function(req, res, next){

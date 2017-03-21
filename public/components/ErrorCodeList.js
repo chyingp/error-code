@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, Grid, Row, Col, Table } from 'react-bootstrap'
-import { Form, FormGroup, FormControl, ControlLabel } from 'react-bootstrap'
+import { Form, FormGroup, FormControl, ControlLabel, ButtonToolbar } from 'react-bootstrap'
 import moment from 'moment'
 
 class AddErrorCode extends React.Component {
@@ -13,6 +13,8 @@ class AddErrorCode extends React.Component {
 		}
 		this.onInputChange = this.onInputChange.bind(this)
 		this.onSearchClick = this.onSearchClick.bind(this)
+		this.onEditCode = this.onEditCode.bind(this)
+		this.onDelCode = this.onDelCode.bind(this)
 	}
 
 	componentDidMount() {
@@ -31,6 +33,14 @@ class AddErrorCode extends React.Component {
 		this.setState({
 			code: evt.target.value.trim() 
 		})
+	}
+
+	onEditCode (item) {
+
+	}
+
+	onDelCode (item) {
+
 	}
 
 	renderDateTime(created_at) {
@@ -55,6 +65,7 @@ class AddErrorCode extends React.Component {
 							<th>错误码</th>
 							<th>错误描述</th>
 							<th>创建时间</th>
+							<th>操作</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -63,6 +74,12 @@ class AddErrorCode extends React.Component {
 								<td>{item.code}</td>
 								<td>{item.brief_desc}</td>
 								<td>{this.renderDateTime(item.created_at)}</td>
+								<td>
+									<ButtonToolbar>
+										<Button bsSize="sm" onClick={this.onEditCode.bind(this, item)}>编辑</Button>									
+										<Button bsSize="sm" onClick={this.onDelCode.bind(this, item)}>删除</Button>
+									</ButtonToolbar>	
+								</td>
 							</tr>
 						)}	
 					</tbody>
