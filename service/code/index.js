@@ -2,6 +2,9 @@ var ErrorCodeModel = require('../../model/errorCode');
 var CategoryModel = require('../../model/category');
 var _ = require('lodash');
 
+// laravel like form validation 
+// https://www.npmjs.com/package/validatorjs
+
 function add (req, res, next){
 	
 	// var opt = _.pick(req.body, ['code', 'brief_desc', 'verbose_desc', 'category_id']);
@@ -20,7 +23,7 @@ function add (req, res, next){
 	// 	}
 	// });
 
-var opt = _.pick(req.body, [
+	var opt = _.pick(req.body, [
 		'code', 
 		'brief_desc', 
 		'verbose_desc', 
@@ -83,39 +86,106 @@ var opt = _.pick(req.body, [
 };
 
 function del (req, res, next){
+	var _id = req.body._id;
 	var options = {
-		_id: req.body.id.toObjectId()
+		_id: _id.toObjectId()
 	};
 	ErrorCodeModel.find(options).remove(function(err, data){	
 		// TODO 判断是否存在
 		if(err){
-			console.log(err);
+			res.json({ret_code: '200300', ret_msg: err.message})
 		}else{
-			res.send(data.result); 
+			if(data.result.n === 0) {
+				res.json({ret_code: '200302', ret_msg: '错误码不存在'});
+			}else{
+				res.json({ret_code: '0', data: {_id: _id}, ret_msg: 'ok'})
+			}
 		}
 	});	
 };
 
 
-function mod (req, res, next){
-	var query = {
-		code: req.body.code.toString()
-	};
+function mod (req, res, next){	
 
-	ErrorCodeModel.update(query, {desc: req.body.desc}, function(err, rawResponse){
-		if(err){
-			console.log(err);
-		}else{
-			res.send(rawResponse); 
-		}
-	});
+	req.checkBody('_id').notEmpty('id不能为空').isString('id格式不对');
+	req.checkBody('brief_desc').isString('描述必须是字符串');
+	req.checkBody('category_id').isString('分类必须是字符串');  // TODO 检测错误分类是否存在
+	req.checkBody('verbose_desc').isString('详细描述必须是字符串');
+
+	req.getValidationResult()
+	   .then(function(result){
+	   		if(result.isEmpty()){
+	   			return opt;
+	   		}
+	   		
+	   		var msg = result.array().map((item) => item.msg ).join(', ');
+			res.json({
+				ret_code: '200100',
+				ret_msg: msg
+			});
+   			return;
+
+	   })
+	   .then(function(opt){
+			ErrorCodeModel.update({_id: req.body._id}, req.body, function(err, rawResponse){
+				if(err){
+					console.log(err);
+					res.json({
+						ret_code: '200401',
+						ret_msg: err.message
+					});
+				}else{
+					res.send({
+						ret_code: '0',
+						ret_msg: rawResponse
+					}); 
+				}
+			});
+			return;
+			
+			var errorCode = new ErrorCodeModel(opt);
+			var _id = req.body._id;
+
+			ErrorCodeModel.find({code: opt.code}, function(error, items){
+				if(items.length) {
+					res.json({
+						ret_code: '200101',
+						ret_msg: '错误码已存在'
+					});
+				}else{
+					errorCode.save(function(error){
+						if(error){
+							res.json({
+								ret_code: '200202',
+								ret_msg: error.message
+							});
+						}else{
+							res.json({
+								ret_code: '0',
+								data: opt
+							});
+						}
+					});
+				}
+			});
+	   })
+	   .catch(function(error){
+			res.json({
+				ret_code: '200101',
+				ret_msg: error.message
+			});
+	   });
 };
 
 function query (req, res, next){
 
 	var options = Object.assign({}, req.query);
+	var queryOptions = _.defaults(options, {
+		page_size: 10,
+		page_num: 1
+	});
 
-	ErrorCodeModel.find(options, function(err, errorCodes){
+	ErrorCodeModel.find(queryOptions, function(err, errorCodes){
 		CategoryModel.find({}, function(err, categories){
 			var map = categories.reduce(function(ret, item){
 				ret[item._id.toString()] = item.name;
@@ -130,7 +200,7 @@ function query (req, res, next){
 			});
 
 			res.json({
-				ret_code: 0,
+				ret_code: '0',
 				data: {
 					items: errorCodes,
 					total: errorCodes.length

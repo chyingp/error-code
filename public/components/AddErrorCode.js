@@ -36,6 +36,17 @@ class AddErrorCode extends React.Component {
 		this.handleCategoryChange = this.handleCategoryChange.bind(this)
 	}
 
+	componentDidMount () {
+		
+		this.props.getCategories()
+
+		if(this.props.id) {
+			this.props.queryErrorCode({
+				_id: this.props.id
+			})
+		}
+	}
+
 	componentWillReceiveProps(nextProps) {
 		let props = this.props
 		let nextStatus = nextProps.status
@@ -80,10 +91,6 @@ class AddErrorCode extends React.Component {
 				that.setState( { showErrMsg: false } )
 			}
 		}, 3000)
-	}
-
-	componentDidMount() {
-		this.props.getCategories()
 	}
 
 	handleInputChange(key, evt) {
@@ -176,7 +183,9 @@ class AddErrorCode extends React.Component {
 	render() {
 		let props = this.props
 		let btnDisabled = props.status === 'pending'
-		let btnText = props.status === 'pending' ? '添加中...' : '新增'
+		let btnText = props.status === 'pending' ? '提交中...' : '提交'
+
+		console.log(props.id);
 
 		return (
 			<div className="add-wrapper">

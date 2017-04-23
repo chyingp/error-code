@@ -68,7 +68,7 @@ var add = function(req, res, next){
 
 var del = function(req, res, next){
 	var options = {
-		_id: req.body.id.toObjectId()
+		_id: req.body._id.toObjectId()
 	};
 	ErrorCodeModel.find(options).remove(function(err, data){	
 		// TODO 判断是否存在

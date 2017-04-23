@@ -2,6 +2,7 @@ import React from 'react'
 import { Button, Grid, Row, Col, Table } from 'react-bootstrap'
 import { Form, FormGroup, FormControl, ControlLabel, ButtonToolbar } from 'react-bootstrap'
 import moment from 'moment'
+import { browserHistory } from 'react-router'
 
 class AddErrorCode extends React.Component {
 
@@ -36,11 +37,11 @@ class AddErrorCode extends React.Component {
 	}
 
 	onEditCode (item) {
-
+		browserHistory.push(`/edit/${item._id}`)
 	}
 
 	onDelCode (item) {
-
+		this.props.removeErrorCode(item._id)	
 	}
 
 	renderDateTime(created_at) {
@@ -71,8 +72,14 @@ class AddErrorCode extends React.Component {
 					<tbody>
 						{props.items.map((item) =>
 							<tr key={item._id}>
-								<td>{item.code}</td>
-								<td>{item.brief_desc}</td>
+								<td>
+									{/*<input type="text" className="form-control" value={item.code} />*/}
+									{item.code}
+								</td>
+								<td>
+									{/*<input type="text" className="form-control" value={item.brief_desc} />*/}
+									{item.brief_desc}
+								</td>
 								<td>{this.renderDateTime(item.created_at)}</td>
 								<td>
 									<ButtonToolbar>

@@ -11,6 +11,8 @@ const errorCodes = (state = [], action) => {
 			return action.payload.items
 		case 'ADD_ERROR_CODE_SUCCESS':
 			return [ action.payload, ...state ]	
+		case 'REMOVE_ERROR_CODE_SUCCESS':
+			return state.filter( (item) => item._id !== action.payload._id )	
 		default:
 			return state;
 	}
@@ -155,11 +157,47 @@ const editingCategory = (state = editCategoryInitialState, action) => {
 	}
 }
 
+let modCodeInitialState = {
+	getCodeStatus: '',
+	modCodeStatus: '',
+	item: {}
+}
+
+const modCode = (state = modCodeInitialState, action) => {
+	switch(action.type) {
+		case 'QUERY_ERROR_CODE_DETAIL_SUCCESS':
+			return {
+				...state,
+				getCodeStatus: 'success',
+				item: action.payload
+			}
+			return 
+		case 'MOD_CATEGORY_PENDING':
+			return {
+				...state,
+				modCodeStatus: 'pending'
+			}
+		case 'MOD_CATEGORY_SUCCESS':
+			return {
+				...state,
+				modCodeStatus: 'success'
+			}	
+		case 'MOD_CATEGORY_ERROR':
+			return {
+				...state,
+				modCodeStatus: 'error'
+			}
+		default: 
+			return state;	
+	}	
+}
+
 const reducer = combineReducers({
 	category: category,  // 分类
 	categories: categories,  // 分类列表
 	editingCategory: editingCategory,
 	code: errorCode,
+	modCode: modCode,
 	items: errorCodes,
 	routing: routerReducer
 })

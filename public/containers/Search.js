@@ -1,5 +1,6 @@
 import { connect } from 'react-redux'
 import { queryErrorCode } from '../actions'
+import { removeErrorCode } from '../actions/code'
 import Search from '../components/ErrorCodeList'
 
 const mapStateToProps = (state) => ({
@@ -7,7 +8,8 @@ const mapStateToProps = (state) => ({
 })
 
 const mapDispatchToProps =  ({
-	queryErrorCode: queryErrorCode
+	queryErrorCode: queryErrorCode,
+	removeErrorCode: removeErrorCode
 })
 
 export default connect(
